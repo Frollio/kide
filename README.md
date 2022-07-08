@@ -1,5 +1,5 @@
 <p>
-  <a>https://img.shields.io/github/license/Frollio/wp-kide-theme</a>
+  https://img.shields.io/github/license/Frollio/wp-kide-theme
   <a>https://img.shields.io/github/issues/Frollio/wp-kide-theme</a>
 </p>
   
