@@ -13,3 +13,7 @@ License: Unlicence
 License URI: https://github.com/Frollio/kide/blob/main/LICENSE
 Text Domain: kide
 */
+
+html {
+  background-color: var(--wp--preset--color--dark2);
+}

@@ -1,0 +1,45 @@
+{
+    "version": 2,
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "color": "#000000",
+                    "name": "Dark 1",
+                    "slug": "dark1"
+                },
+                {
+                    "color": "#1a1a1a",
+                    "name": "Dark 2",
+                    "slug": "dark2"
+                },
+                {
+                    "color": "#333333",
+                    "name": "Dark 3",
+                    "slug": "dark3"
+                },
+                {
+                    "color": "#cccccc",
+                    "name": "Light 1",
+                    "slug": "light1"
+                },
+                {
+                    "color": "#e6e6e6",
+                    "name": "Light 2",
+                    "slug": "light2"
+                },
+                {
+                    "color": "#ffffff",
+                    "name": "Light 3",
+                    "slug": "light3"
+                },
+                {
+                    "color": "#cc00ff",
+                    "name": "Colour",
+                    "slug": "colour"
+                }
+            ]
+        }
+    },
+    "styles": {}
+}
