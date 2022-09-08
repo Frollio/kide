@@ -41,5 +41,9 @@
             ]
         }
     },
-    "styles": {}
+    "styles": {
+        "color": {
+            "background": "var(--wp--preset--color--dark2)"
+        }
+    }
 }
