@@ -4,38 +4,38 @@
         "color": {
             "palette": [
                 {
-                    "color": "#000000",
                     "name": "Dark 1",
+                    "color": "#000000",
                     "slug": "dark1"
                 },
                 {
+                    "slug": "dark2",
                     "color": "#1a1a1a",
-                    "name": "Dark 2",
-                    "slug": "dark2"
+                    "name": "Dark 2"
                 },
                 {
-                    "color": "#333333",
                     "name": "Dark 3",
+                    "color": "#333333",
                     "slug": "dark3"
                 },
                 {
-                    "color": "#cccccc",
                     "name": "Light 1",
+                    "color": "#cccccc",
                     "slug": "light1"
                 },
                 {
-                    "color": "#e6e6e6",
                     "name": "Light 2",
+                    "color": "#e6e6e6",
                     "slug": "light2"
                 },
                 {
-                    "color": "#ffffff",
                     "name": "Light 3",
+                    "color": "#ffffff",
                     "slug": "light3"
                 },
                 {
-                    "color": "#cc00ff",
                     "name": "Colour",
+                    "color": "#cc00ff",
                     "slug": "colour"
                 }
             ]
