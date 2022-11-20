@@ -45,5 +45,12 @@
         "color": {
             "background": "var(--wp--preset--color--dark2)"
         }
-    }
+    },
+    "templateParts": [
+        {
+            "name": "header",
+            "title": "Header",
+            "area": "header"
+        }
+    ]
 }
