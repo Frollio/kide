@@ -4,34 +4,34 @@
         "color": {
             "palette": [
                 {
-                    "name": "Dark 1",
+                    "name": "Background 1",
                     "color": "#000000",
-                    "slug": "dark1"
+                    "slug": "background1"
                 },
                 {
-                    "slug": "dark2",
+                    "name": "Background 2",
                     "color": "#1a1a1a",
-                    "name": "Dark 2"
+                    "slug": "background2"
                 },
                 {
-                    "name": "Dark 3",
+                    "name": "Background 3",
                     "color": "#333333",
-                    "slug": "dark3"
+                    "slug": "background3"
                 },
                 {
-                    "name": "Light 1",
+                    "name": "Font 1",
                     "color": "#cccccc",
-                    "slug": "light1"
+                    "slug": "font1"
                 },
                 {
-                    "name": "Light 2",
+                    "name": "Font 2",
                     "color": "#e6e6e6",
-                    "slug": "light2"
+                    "slug": "font2"
                 },
                 {
-                    "name": "Light 3",
+                    "name": "Font 3",
                     "color": "#ffffff",
-                    "slug": "light3"
+                    "slug": "font3"
                 },
                 {
                     "name": "Colour",
@@ -43,7 +43,7 @@
     },
     "styles": {
         "color": {
-            "background": "var(--wp--preset--color--dark-2)"
+            "background": "var(--wp--preset--color--background-2)"
         }
     },
     "templateParts": [
