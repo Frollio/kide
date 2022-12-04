@@ -1,0 +1,11 @@
+
+@media only screen and (max-width: 999px) {
+  .wp-block-navigation__responsive-container-open, 
+  .wp-block-navigation__responsive-container-open:not(.always-shown) {
+    display: flex;
+  }
+    .wp-block-navigation__responsive-container, 
+    .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+    display: none;
+  }
+}
