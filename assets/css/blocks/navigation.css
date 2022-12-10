@@ -1,4 +1,12 @@
 
+/* Setting the navigation overlay background in header.html and theme.json did not work.
+Try to solve this problem later and use this style for now. */
+.wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open,
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+  background-color: var(--wp--preset--color--background-1);
+  color: var(--wp--preset--color--font-1);
+}
+
 @media only screen and (max-width: 999px) {
   .wp-block-navigation__responsive-container-open, 
   .wp-block-navigation__responsive-container-open:not(.always-shown) {
