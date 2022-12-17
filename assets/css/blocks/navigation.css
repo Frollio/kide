@@ -7,6 +7,10 @@ Try to solve this problem later and use this style for now. */
   color: var(--wp--preset--color--font-1);
 }
 
+.wp-block-navigation.wp-container-3 {
+  justify-content: center !important; /* Try to get rid of this !important */
+}
+
 .wp-block-navigation__responsive-container-close svg, 
 .wp-block-navigation__responsive-container-open svg {
   width: auto;
