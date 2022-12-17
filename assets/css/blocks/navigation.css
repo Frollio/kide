@@ -7,6 +7,12 @@ Try to solve this problem later and use this style for now. */
   color: var(--wp--preset--color--font-1);
 }
 
+.wp-block-navigation__responsive-container-close svg, 
+.wp-block-navigation__responsive-container-open svg {
+  width: auto;
+  height: 80px;
+}
+
 @media only screen and (max-width: 999px) {
   .wp-block-navigation__responsive-container-open, 
   .wp-block-navigation__responsive-container-open:not(.always-shown) {
