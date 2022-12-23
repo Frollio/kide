@@ -31,7 +31,7 @@ add_action( 'wp_enqueue_scripts', 'kide_styles' );
 
 if ( ! function_exists( 'block_styles' ) ) :
   function block_styles() {
-    $styled_blocks = ['group','navigation'];
+    $styled_blocks = ['group','navigation','search'];
     foreach ( $styled_blocks as $block_name ) {
       $args = array(
         'handle' => "block-styles-$block_name",
