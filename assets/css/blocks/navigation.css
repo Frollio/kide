@@ -14,7 +14,7 @@ Try to solve this problem later and use this style for now. */
 .wp-block-navigation__responsive-container-close svg, 
 .wp-block-navigation__responsive-container-open svg {
   width: auto;
-  height: 80px;
+  height: 70px;
 }
 
 @media only screen and (max-width: 999px) {
