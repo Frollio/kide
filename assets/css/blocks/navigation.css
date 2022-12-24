@@ -4,9 +4,14 @@
   justify-content: center;
 }
 
-/* Menu container's content */
+/* Container of responsive menu items */
 .wp-block-navigation__responsive-container-content {
   align-items: center !important;
+}
+
+/* Responsive menu, all items */
+.wp-block-navigation__responsive-container.is-menu-open {
+  line-height: 3.0rem;
 }
 
 /* Responsive submenu containers */
@@ -15,11 +20,6 @@
 .wp-block-navigation__submenu-container {
   padding-top: 0;
   font-size: 1.5rem;
-}
-
-/* Responsive menu, all list items */
-.wp-block-navigation__responsive-container.is-menu-open {
-  line-height: 3.0rem;
 }
 
 /* Responsive menu, first level of navigation items */
