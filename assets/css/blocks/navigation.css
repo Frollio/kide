@@ -1,4 +1,39 @@
 
+/* Group block */
+.kide-header-group ul {
+  justify-content: center;
+}
+
+/* Menu container's content */
+.wp-block-navigation__responsive-container-content {
+  align-items: center !important;
+}
+
+/* Responsive submenu containers */
+.wp-block-navigation__responsive-container.is-menu-open 
+.wp-block-navigation__responsive-container-content 
+.wp-block-navigation__submenu-container {
+  padding-top: 0;
+  font-size: 1.5rem;
+}
+
+/* Responsive menu, all list items */
+.wp-block-navigation__responsive-container.is-menu-open {
+  line-height: 3.0rem;
+}
+
+/* Responsive menu, first level of navigation items */
+.wp-block-navigation__responsive-container.is-menu-open 
+.wp-block-navigation__responsive-container-content > ul > li {
+  padding-top: 1.0rem;
+}
+
+/* Responsive menu, first links of navigation items */
+.wp-block-navigation__responsive-container.is-menu-open 
+.wp-block-navigation__responsive-container-content > ul > li > a {
+  font-size: 2.0rem;
+}
+
 /* Setting the navigation overlay background in header.html and theme.json did not work.
 Try to solve this problem later and use this style for now. */
 .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open,
