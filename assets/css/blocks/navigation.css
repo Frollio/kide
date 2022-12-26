@@ -29,7 +29,7 @@
   font-size: 2.0rem;
 }
 
-/* Setting the navigation overlay background in header.html and theme.json did not work.
+/* Setting the navigation overlay background color in header.html and theme.json did not work.
 Try to solve this problem later and use this style for now. */
 .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open,
 .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
