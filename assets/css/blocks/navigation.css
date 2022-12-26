@@ -1,9 +1,4 @@
 
-/* Group block */
-.kide-header-group ul {
-  justify-content: center;
-}
-
 /* Container of responsive menu items */
 .wp-block-navigation__responsive-container-content {
   align-items: center !important;

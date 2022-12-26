@@ -7,10 +7,27 @@
 if ( ! function_exists( 'kide_setup' ) ) :
   function kide_setup() {
     add_theme_support( 'wp-block-styles' );
-    add_editor_style( 'style.css' );
   }
 endif;
 add_action( 'after_setup_theme', 'kide_setup' );
+
+/**
+ * Editor styles
+ */
+
+if (! function_exists( 'kide_editor_styles' ) ) :
+  function kide_editor_styles() {
+    add_editor_style(
+      array(
+        'assets/css/blocks/column.css',
+        '.assets/css/blocks/group.css',
+        '.assets/css/blocks/navigation.css',
+        '.assets/css/blocks/search.css'
+      )
+    );
+  }
+endif;
+add_action( 'after_setup_theme', 'kide_editor_styles' );
 
 /**
  * Global styles and scripts
@@ -31,7 +48,7 @@ add_action( 'wp_enqueue_scripts', 'kide_styles' );
 
 if ( ! function_exists( 'block_styles' ) ) :
   function block_styles() {
-    $styled_blocks = ['group','navigation','search'];
+    $styled_blocks = ['column','group','navigation','search'];
     foreach ( $styled_blocks as $block_name ) {
       $args = array(
         'handle' => "block-styles-$block_name",

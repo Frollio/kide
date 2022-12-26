@@ -1,5 +1,5 @@
 
-.kide-header-group form {
+.kide-header-column form {
   max-width: 20rem;
   background-color: var(--wp--preset--color--background-2);
   color: var(--wp--preset--color--font-2);
@@ -7,14 +7,14 @@
   margin-right: auto;
 }
 
-.kide-header-group input {
+.kide-header-column input {
   background-color: transparent;
   color: var(--wp--preset--color--font-2);
   border: none;
   padding: 15px;
 }
 
-.kide-header-group .wp-block-search__button {
+.kide-header-column .wp-block-search__button {
   background-color: var(--wp--preset--color--background-3);
   padding: 15px;
   margin: 0
