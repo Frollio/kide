@@ -47,6 +47,7 @@ Try to solve this problem later and use this style for now. */
   height: 70px;
 }
 
+/* Responsive navigation menu */
 @media only screen and (max-width: 999px) {
   .wp-block-navigation__responsive-container-open, 
   .wp-block-navigation__responsive-container-open:not(.always-shown) {
@@ -55,5 +56,13 @@ Try to solve this problem later and use this style for now. */
     .wp-block-navigation__responsive-container, 
     .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
     display: none;
+  }
+}
+
+/* None-responsive navigation menu */
+@media only screen and (min-width: 1000px) {
+  /* Container of none-responsive menu items */
+  .kide-header-navigation {
+    font-size: 1.2rem;
   }
 }
