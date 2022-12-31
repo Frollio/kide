@@ -42,13 +42,13 @@
 
 @media only screen and (max-width: 999px) {
   /* Responsive navigation menu */
-  .kide-header-navigation .wp-block-navigation__responsive-container-open, 
-  .kide-header-navigation .wp-block-navigation__responsive-container-open:not(.always-shown) {
+  .wp-block-navigation__responsive-container-open, 
+  .wp-block-navigation__responsive-container-open:not(.always-shown) {
     display: flex;
   }
   /* None-responsive navigation menu */
-  .kide-header-navigation .wp-block-navigation__responsive-container, 
-  .kide-header-navigation .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+  .wp-block-navigation__responsive-container, 
+  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
     display: none;
   }
 }
@@ -61,17 +61,17 @@
     line-height: 2.0rem;
   }
   /* None-responsive menu > first level of navigation items */
-.kide-header-navigation .wp-block-navigation-submenu {
-  padding-top: 0;
-}
-/* None-responsive menu > container of list items */
-.kide-header-navigation > div > div > div > div > ul {
-  justify-content: center;
-}
-/* None-responsive menu > first-level items */
-.kide-header-navigation > div > div > div > div > ul > li {
-  font-size: 1.2rem;
-}
+  .kide-header-navigation .wp-block-navigation-submenu {
+    padding-top: 0;
+  }
+  /* None-responsive menu > container of list items */
+  .kide-header-navigation > div > div > div > div > ul {
+    justify-content: center;
+  }
+  /* None-responsive menu > first-level items */
+  .kide-header-navigation > div > div > div > div > ul > li {
+    font-size: 1.2rem;
+  }
   /* None-responsive menu A submenu containers */
   .kide-header-navigation .wp-block-navigation__submenu-container {
     font-size: 1.2rem;

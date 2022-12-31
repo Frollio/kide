@@ -38,6 +38,8 @@ if ( ! function_exists( 'kide_styles' ) ) :
     wp_enqueue_style( 'normalize', get_template_directory_uri() . 
       '/assets/css/normalize.css', false, '8.0.1', 'all' );
     wp_enqueue_style( 'style', get_stylesheet_uri() );
+    wp_enqueue_style( 'kide', get_template_directory_uri() . 
+      '/assets/css/kide.css', false, '0.1.0', 'all' );
   }
 endif;
 add_action( 'wp_enqueue_scripts', 'kide_styles' );
