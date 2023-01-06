@@ -1,0 +1,22 @@
+
+/* Header > search block */
+.kide-header-search {
+  max-width: 20rem;
+  background-color: var(--wp--preset--color--background-2);
+  color: var(--wp--preset--color--font-2);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header > search block > search component */
+.kide-header-search > .wp-block-search__inside-wrapper {
+  border: none;
+}
+
+/* Header > search block > search component > input field */
+.kide-header-search > .wp-block-search__inside-wrapper > input {
+  background-color: transparent;
+  color: var(--wp--preset--color--font-2);
+  border: none;
+  padding: 15px;
+}
