@@ -19,7 +19,8 @@ if (! function_exists( 'kide_editor_styles' ) ) :
   function kide_editor_styles() {
     add_editor_style(
       array(
-        'assets/css/blocks/column.css',
+        '.assets/css/blocks/column.css',
+        '.assets/css/blocks/columns.css',
         '.assets/css/blocks/group.css',
         '.assets/css/blocks/navigation.css',
         '.assets/css/blocks/search.css'
@@ -50,7 +51,7 @@ add_action( 'wp_enqueue_scripts', 'kide_styles' );
 
 if ( ! function_exists( 'block_styles' ) ) :
   function block_styles() {
-    $styled_blocks = ['column','group','navigation','search'];
+    $styled_blocks = ['column','columns','group','navigation','search'];
     foreach ( $styled_blocks as $block_name ) {
       $args = array(
         'handle' => "block-styles-$block_name",

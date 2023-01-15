@@ -10,11 +10,11 @@
 <!-- wp:group {"tagName":"section","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <section class="wp-block-group">
   
-  <!-- wp:columns -->
-  <div class="wp-block-columns">
+  <!-- wp:columns {"className":"kide-site-intro-columns"} -->
+  <div class="wp-block-columns kide-site-intro-columns">
   
-    <!-- wp:column -->
-    <div class="wp-block-column">
+    <!-- wp:column {"className":"kide-site-intro-column} -->
+    <div class="wp-block-column kide-site-intro-column">
       <!-- wp:heading -->
       <h2 id="introduction-heading">Introduction heading</h2>
       <!-- /wp:heading -->
@@ -24,8 +24,8 @@
     </div>
     <!-- /wp:column -->
 
-    <!-- wp:column -->
-    <div class="wp-block-column">
+    <!-- wp:column {"className":"kide-site-intro-column} -->
+    <div class="wp-block-column kide-site-intro-column">
       <!-- wp:image {"id":"introduction-site-image","sizeSlug":"large","linkDestination":"none"} -->
       <figure class="wp-block-image size-large">
         <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/3x1_2000x666.png' ) ); ?>" alt="ADD YOUR IMAGE HERE"/>

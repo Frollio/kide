@@ -2,3 +2,7 @@
 .kide-header-column {
   text-align: center;
 }
+
+.kide-site-intro-column {
+  max-width: 800px;
+}

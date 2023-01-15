@@ -1,0 +1,6 @@
+
+@media only screen and (max-width: 999px) {
+  .kide-site-intro-columns {
+    flex-direction: column-reverse;
+  }
+}
