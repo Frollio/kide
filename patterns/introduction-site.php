@@ -14,7 +14,7 @@
   <div class="wp-block-columns kide-site-intro-columns">
   
     <!-- wp:column {"className":"kide-site-intro-column} -->
-    <div class="wp-block-column kide-site-intro-column">
+    <div id="kide-intro-col-1" class="wp-block-column kide-site-intro-column">
       <!-- wp:heading -->
       <h2 id="introduction-heading">Introduction heading</h2>
       <!-- /wp:heading -->
@@ -25,7 +25,7 @@
     <!-- /wp:column -->
 
     <!-- wp:column {"className":"kide-site-intro-column} -->
-    <div class="wp-block-column kide-site-intro-column">
+    <div id="kide-intro-col-2" class="wp-block-column kide-site-intro-column">
       <!-- wp:image {"id":"introduction-site-image","sizeSlug":"large","linkDestination":"none"} -->
       <figure class="wp-block-image size-large">
         <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/3x1_2000x666.png' ) ); ?>" alt="ADD YOUR IMAGE HERE"/>

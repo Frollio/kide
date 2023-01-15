@@ -1,6 +1,17 @@
 
-@media only screen and (max-width: 999px) {
+/* Header columns block */
+.kide-header > div {
+  margin-bottom: 0;
+}
+
+.kide-site-intro-columns {
+  flex-direction: column-reverse;
+  max-width: 1000px;
+}
+
+@media only screen and (min-width: 1600px) {
   .kide-site-intro-columns {
-    flex-direction: column-reverse;
+    flex-direction: row;
+    max-width: 2000px;
   }
 }
