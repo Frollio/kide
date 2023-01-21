@@ -2,7 +2,7 @@
 <?php
 /**
  * Title: Introduction of the site, text and a picture
- * Slug: kide/introduction-site
+ * Slug: kide/site-introduction
  * Categories: text, image
  */
 ?>
