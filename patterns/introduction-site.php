@@ -15,11 +15,11 @@
   
     <!-- wp:column {"className":"kide-site-intro-column} -->
     <div id="kide-intro-col-1" class="wp-block-column kide-site-intro-column">
-      <!-- wp:heading -->
-      <h2 id="introduction-heading">Introduction heading</h2>
+      <!-- wp:heading {"textAlign":"center"} -->
+      <h2 class="has-text-align-center" id="introduction-heading">Introduction heading</h2>
       <!-- /wp:heading -->
-      <!-- wp:paragraph -->
-      <p>Your introduction text for the end-user to understand what this page is about.</p>
+      <!-- wp:paragraph {"align":"center"} -->
+      <p class="has-text-align-center">Your introduction text for the end-user to understand what this page is about.</p>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:column -->
