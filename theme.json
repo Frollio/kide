@@ -222,6 +222,58 @@
                     "name": "Poppins",
                     "slug": "poppins"
                 }
+            ],
+            "fontSizes": [
+                {
+                    "name": "xxs",
+                    "slug": "xxs",
+                    "size": "0.6rem"
+                },
+                {
+                    "name": "xs",
+                    "slug": "xs",
+                    "size": "0.8rem"
+                },
+                {
+                    "name": "s",
+                    "slug": "s",
+                    "size": "1.0rem"
+                },
+                {
+                    "name": "m",
+                    "slug": "m",
+                    "size": "1.2rem"
+                },
+                {
+                    "name": "l",
+                    "slug": "l",
+                    "size": "1.4rem"
+                },
+                {
+                    "name": "xl",
+                    "slug": "xl",
+                    "size": "1.6rem"
+                },
+                {
+                    "name": "xxl",
+                    "slug": "xxl",
+                    "size": "1.8rem"
+                },
+                {
+                    "name": "xxxl",
+                    "slug": "xxxl",
+                    "size": "2.0rem"
+                },
+                {
+                    "name": "xxxxl",
+                    "slug": "xxxxl",
+                    "size": "3.0rem"
+                },
+                {
+                    "name": "xxxxxl",
+                    "slug": "xxxxxl",
+                    "size": "4.0rem"
+                }
             ]
         }
     },
