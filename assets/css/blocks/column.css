@@ -3,8 +3,8 @@
   text-align: center;
 }
 
-#kide-intro-col-1 {
-  padding: 1.5rem;
+#kide-intro-col-1 > h2, p {
+  margin: 2.0rem;
 }
 
 @media only screen and (min-width: 1000px) {
