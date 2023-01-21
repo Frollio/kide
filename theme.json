@@ -225,54 +225,54 @@
             ],
             "fontSizes": [
                 {
-                    "name": "xxs",
+                    "name": "Static xxs",
                     "slug": "xxs",
                     "size": "0.6rem"
                 },
                 {
-                    "name": "xs",
+                    "name": "Static xs",
                     "slug": "xs",
                     "size": "0.8rem"
                 },
                 {
-                    "name": "s",
+                    "name": "Static s",
                     "slug": "s",
                     "size": "1.0rem"
                 },
                 {
-                    "name": "m",
+                    "name": "Static m",
                     "slug": "m",
                     "size": "1.2rem"
                 },
                 {
-                    "name": "l",
+                    "name": "Fluid l",
                     "slug": "l",
-                    "size": "1.4rem"
+                    "size": "clamp(1.4rem, 2.2vw, 1.6rem)"
                 },
                 {
-                    "name": "xl",
+                    "name": "Fluid xl",
                     "slug": "xl",
-                    "size": "1.6rem"
+                    "size": "clamp(1.6rem, 2.5vw, 2rem)"
                 },
                 {
-                    "name": "xxl",
+                    "name": "Fluid xxl",
                     "slug": "xxl",
-                    "size": "1.8rem"
+                    "size": "clamp(1.8rem, 3vw, 3rem)"
                 },
                 {
-                    "name": "xxxl",
+                    "name": "Fluid xxxl",
                     "slug": "xxxl",
-                    "size": "2.0rem"
+                    "size": "clamp(2.0rem, 3.5vw, 4rem)"
                 },
                 {
-                    "name": "xxxxl",
+                    "name": "Fluid xxxxl",
                     "slug": "xxxxl",
-                    "size": "3.0rem"
+                    "size": "clamp(3rem, 6vw, 6rem)"
                 },
                 {
-                    "name": "xxxxxl",
+                    "name": "Fluid xxxxxl",
                     "slug": "xxxxxl",
-                    "size": "4.0rem"
+                    "size": "clamp(4rem, 8vw, 8rem)"
                 }
             ]
         }
