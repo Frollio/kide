@@ -4,11 +4,24 @@
 }
 
 #kide-intro-col-1 > h2, p {
-  margin: 2.0rem;
+  margin: clamp(1.0rem, 2.0rem, 5.0rem);
+}
+
+#kide-intro-col-2 > figure {
+  margin: 0;
 }
 
 @media only screen and (min-width: 1000px) {
-  #kide-intro-col-2 {
-    padding: 1.5rem;
+  #kide-intro-col-2 > figure {
+    margin-top: clamp(2.0rem, 5.0rem, 10.0rem);
+    margin-right: clamp(2.0rem, 5.0rem, 10.0rem);
+    margin-bottom: 0;
+    margin-left: clamp(2.0rem, 5.0rem, 10.0rem);
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  #kide-intro-col-2 > figure {
+    margin: clamp(2.0rem, 5.0rem, 10.0rem);
   }
 }
