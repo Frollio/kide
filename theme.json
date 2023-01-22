@@ -287,6 +287,13 @@
             "fontSize": "16px",
             "fontStyle": "normal",
             "fontWeight": "400"
+        },
+        "elements": {
+            "link": {
+                "color": {
+                    "text": "var(--wp--preset--color--font-4)"
+                }
+            }
         }
     },
     "templateParts": [
