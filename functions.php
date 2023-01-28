@@ -15,12 +15,12 @@ add_action( 'after_setup_theme', 'kide_setup' );
  * Block styles
  */
 
-if ( ! function_exists( 'block_styles' ) ) :
-  function block_styles() {
+if ( ! function_exists( 'kide_block_styles' ) ) :
+  function kide_block_styles() {
     $styled_blocks = ['column','columns','image','group','latest-posts','navigation','search'];
     foreach ( $styled_blocks as $block_name ) {
       $args = array(
-        'handle' => "block-styles-$block_name",
+        'handle' => "kide-$block_name",
         'src' => get_theme_file_uri(
           "assets/css/blocks/$block_name.css"
         ),
@@ -32,7 +32,7 @@ if ( ! function_exists( 'block_styles' ) ) :
     }
   }
 endif;
-add_action( 'after_setup_theme', 'block_styles' );
+add_action( 'after_setup_theme', 'kide_block_styles' );
 
 /**
  * Editor styles
