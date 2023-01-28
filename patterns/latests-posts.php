@@ -7,20 +7,20 @@
    * */
 ?>
 
-<!-- wp:group {"tagName":"section","backgroundColor":"background3","layout":{"type":"default"}} -->
-<section class="wp-block-group has-background-3-background-color has-background">
+<!-- wp:group {"tagName":"section","id":"kide-latest-group","backgroundColor":"background3","layout":{"type":"constrained","justifyContent":"center"}} -->
+<section id="kide-latest-group" class="wp-block-group has-background-3-background-color has-background">
   
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group">
+<!-- wp:group {"className":"kide-latest-row","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+<div class="wp-block-group kide-latest-row">
   <!-- wp:heading -->
-  <h2 id="latests-posts">Latests posts</h2>
+  <h2 id="latests-posts">Latest posts</h2>
   <!-- /wp:heading -->
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center","orientation":"horizontal"}} -->
-<div class="wp-block-group">
-  <!-- wp:latest-posts {"postsToShow":10,"displayPostDate":true} /-->
+<!-- wp:group {"className":"kide-latest-row","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center","orientation":"horizontal"}} -->
+<div class="wp-block-group kide-latest-row">
+  <!-- wp:latest-posts {"postsToShow":10,"displayPostDate":true,"postLayout":"grid","columns":2,"className":"kide-latest-posts"} /-->
 </div>
 <!-- /wp:group -->
 

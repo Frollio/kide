@@ -1,0 +1,23 @@
+
+.kide-latest-posts li {
+  display: grid;
+}
+
+.kide-latest-posts :first-child {
+  margin-bottom: 0.5rem;
+}
+
+
+@media only screen and (min-width: 1600px) {
+  .kide-latest-posts li {
+    grid-template-columns: 20% 80%;
+    gap: 2rem;
+    margin-right: 4rem;
+  }
+  .kide-latest-posts > li > a {
+    grid-area: 1 / 2 / 1 / 2;
+  }
+  .kide-latest-posts > li > time {
+    grid-area: 1 / 1 / 1 / 1;
+  }
+}

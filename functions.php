@@ -23,6 +23,7 @@ if (! function_exists( 'kide_editor_styles' ) ) :
         '.assets/css/blocks/columns.css',
         '.assets/css/blocks/image.css',
         '.assets/css/blocks/group.css',
+        '.assets/css/blocks/latest-posts.css',
         '.assets/css/blocks/navigation.css',
         '.assets/css/blocks/search.css'
       )
@@ -52,7 +53,7 @@ add_action( 'wp_enqueue_scripts', 'kide_styles' );
 
 if ( ! function_exists( 'block_styles' ) ) :
   function block_styles() {
-    $styled_blocks = ['column','columns','image','group','navigation','search'];
+    $styled_blocks = ['column','columns','image','group','latest-posts','navigation','search'];
     foreach ( $styled_blocks as $block_name ) {
       $args = array(
         'handle' => "block-styles-$block_name",
