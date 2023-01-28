@@ -12,13 +12,38 @@ endif;
 add_action( 'after_setup_theme', 'kide_setup' );
 
 /**
+ * Block styles
+ */
+
+if ( ! function_exists( 'block_styles' ) ) :
+  function block_styles() {
+    $styled_blocks = ['column','columns','image','group','latest-posts','navigation','search'];
+    foreach ( $styled_blocks as $block_name ) {
+      $args = array(
+        'handle' => "block-styles-$block_name",
+        'src' => get_theme_file_uri(
+          "assets/css/blocks/$block_name.css"
+        ),
+        $args['path'] = get_theme_file_path(
+          "assets/css/blocks/$block_name.css"
+        ),
+      );
+      wp_enqueue_block_style( "core/$block_name", $args );
+    }
+  }
+endif;
+add_action( 'after_setup_theme', 'block_styles' );
+
+/**
  * Editor styles
  */
 
-if (! function_exists( 'kide_editor_styles' ) ) :
+ if (! function_exists( 'kide_editor_styles' ) ) :
   function kide_editor_styles() {
     add_editor_style(
       array(
+        '.assets/css/normalize.css',
+        '.assets/css/kide.css',
         '.assets/css/blocks/column.css',
         '.assets/css/blocks/columns.css',
         '.assets/css/blocks/image.css',
@@ -46,26 +71,3 @@ if ( ! function_exists( 'kide_styles' ) ) :
   }
 endif;
 add_action( 'wp_enqueue_scripts', 'kide_styles' );
-
-/**
- * Block styles
- */
-
-if ( ! function_exists( 'block_styles' ) ) :
-  function block_styles() {
-    $styled_blocks = ['column','columns','image','group','latest-posts','navigation','search'];
-    foreach ( $styled_blocks as $block_name ) {
-      $args = array(
-        'handle' => "block-styles-$block_name",
-        'src' => get_theme_file_uri(
-          "assets/css/blocks/$block_name.css"
-        ),
-        $args['path'] = get_theme_file_path(
-          "assets/css/blocks/$block_name.css"
-        ),
-      );
-      wp_enqueue_block_style( "core/$block_name", $args );
-    }
-  }
-endif;
-add_action( 'after_setup_theme', 'block_styles' );

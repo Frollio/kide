@@ -15,8 +15,8 @@
   
     <!-- wp:column {"verticalAlignment":"center","className":"kide-site-intro-column} -->
     <div id="kide-intro-col-1" class="wp-block-column is-vertically-aligned-center kide-site-intro-column">
-      <!-- wp:heading {"textAlign":"center","fontSize":"xxxl"} -->
-      <h2 class="has-text-align-center has-xxxl-font-size" id="introduction-heading">Introduction heading</h2>
+      <!-- wp:heading {"textAlign":"center","level":1} -->
+      <h1 class="has-text-align-center" id="introduction-heading">Introduction heading</h1>
       <!-- /wp:heading -->
       <!-- wp:paragraph {"align":"center","fontSize":"m"} -->
       <p class="has-text-align-center has-m-font-size">Your introduction text for the end-user to understand what this page is about.</p>
