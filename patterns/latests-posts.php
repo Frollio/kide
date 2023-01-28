@@ -1,8 +1,8 @@
 
 <?php
   /**
-   * Title: Latests posts with headings and dates
-   * slug: kide/latests-posts
+   * Title: Latest posts with headings and dates
+   * slug: kide/latest-posts
    * Categories: text
    * */
 ?>
@@ -13,7 +13,7 @@
 <!-- wp:group {"className":"kide-latest-row","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group kide-latest-row">
   <!-- wp:heading -->
-  <h2 id="latests-posts">Latest posts</h2>
+  <h2 id="latest-posts">Latest posts</h2>
   <!-- /wp:heading -->
 </div>
 <!-- /wp:group -->
