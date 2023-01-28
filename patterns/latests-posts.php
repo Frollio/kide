@@ -20,7 +20,7 @@
 
 <!-- wp:group {"className":"kide-latest-row","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center","orientation":"horizontal"}} -->
 <div class="wp-block-group kide-latest-row">
-  <!-- wp:latest-posts {"postsToShow":10,"displayPostDate":true,"postLayout":"grid","columns":2,"className":"kide-latest-posts"} /-->
+  <!-- wp:latest-posts {"postsToShow":10,"displayPostDate":true,"postLayout":"grid","columns":2,"className":"kide-latest-posts","fontSize":"m"} /-->
 </div>
 <!-- /wp:group -->
 
