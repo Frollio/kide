@@ -237,27 +237,27 @@
                 {
                     "name": "Static s",
                     "slug": "s",
-                    "size": "1.0rem"
+                    "size": "clamp(1.0rem, 1vw, 1.2rem)"
                 },
                 {
                     "name": "Fluid m",
                     "slug": "m",
-                    "size": "clamp(1.2rem, 2vw, 1.8rem)"
+                    "size": "clamp(1.2rem, 1.2vw, 1.4rem)"
                 },
                 {
                     "name": "Fluid l",
                     "slug": "l",
-                    "size": "clamp(1.4rem, 2.2vw, 2rem)"
+                    "size": "clamp(1.4rem, 1.5vw, 1.7rem)"
                 },
                 {
                     "name": "Fluid xl",
                     "slug": "xl",
-                    "size": "clamp(1.6rem, 2.5vw, 2.5rem)"
+                    "size": "clamp(1.6rem, 2vw, 2.4rem)"
                 },
                 {
                     "name": "Fluid xxl",
                     "slug": "xxl",
-                    "size": "clamp(1.8rem, 3vw, 3rem)"
+                    "size": "clamp(1.8rem, 3vw, 2.7rem)"
                 },
                 {
                     "name": "Fluid xxxl",
