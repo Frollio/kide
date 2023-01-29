@@ -1,10 +1,10 @@
 
-#kide-latest-group {
+#kide-latest-grid-group {
   display: grid;
   gap: 4.0rem;
   padding: 4.0rem;
 }
 
-.kide-latest-row {
+.kide-latest-grid-row {
   max-width: 1600px !important;
 }
