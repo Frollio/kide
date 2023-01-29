@@ -1,5 +1,31 @@
 
 /**
+ * Latest posts list
+ */
+
+ .kide-latest-posts-list li {
+  display: grid;
+  margin-bottom: 2rem;
+}
+
+.kide-latest-posts-list > li > time {
+  font-size: var(--wp--preset--font-size--m);
+}
+
+@media only screen and (min-width: 800px) {
+  .kide-latest-posts-list li {
+    grid-template-columns: 30% 70%;
+    gap: 2rem;
+  }
+  .kide-latest-posts-list > li > a {
+    grid-area: 1 / 2 / 1 / 2;
+  }
+  .kide-latest-posts-list > li > time {
+    grid-area: 1 / 1 / 1 / 1;
+  }
+}
+
+/**
  * Latest posts grid
  */
 
