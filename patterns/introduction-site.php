@@ -15,7 +15,7 @@
   
     <!-- wp:column {"verticalAlignment":"center","className":"kide-site-intro-column} -->
     <div id="kide-intro-col-1" class="wp-block-column is-vertically-aligned-center kide-site-intro-column">
-      <!-- wp:heading {"textAlign":"center","level":1,"fontSize":"xxxxl"} -->
+      <!-- wp:heading {"textAlign":"center","level":1} -->
       <h1 class="has-text-align-center has-xxxxl-font-size" id="introduction-heading">Introduction heading</h1>
       <!-- /wp:heading -->
       <!-- wp:paragraph {"align":"center","fontSize":"m"} -->
