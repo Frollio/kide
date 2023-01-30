@@ -225,54 +225,54 @@
             ],
             "fontSizes": [
                 {
-                    "name": "Fluid 2xs",
-                    "slug": "2xs",
+                    "name": "Fluid 2XS",
+                    "slug": "2-xs",
                     "size": "clamp(0.6rem, 0.6vw, 0.7rem)"
                 },
                 {
-                    "name": "Fluid xs",
+                    "name": "Fluid XS",
                     "slug": "xs",
                     "size": "clamp(0.8rem, 0.8vw, 1rem)"
                 },
                 {
-                    "name": "Static s",
+                    "name": "Static S",
                     "slug": "s",
                     "size": "clamp(1.0rem, 1vw, 1.2rem)"
                 },
                 {
-                    "name": "Fluid m",
+                    "name": "Fluid M",
                     "slug": "m",
                     "size": "clamp(1.2rem, 1.2vw, 1.4rem)"
                 },
                 {
-                    "name": "Fluid l",
+                    "name": "Fluid L",
                     "slug": "l",
                     "size": "clamp(1.4rem, 1.5vw, 1.7rem)"
                 },
                 {
-                    "name": "Fluid xl",
+                    "name": "Fluid XL",
                     "slug": "xl",
                     "size": "clamp(1.6rem, 2vw, 2.4rem)"
                 },
                 {
-                    "name": "Fluid 2xl",
-                    "slug": "2xl",
-                    "size": "clamp(1.8rem, 3vw, 2.7rem)"
+                    "name": "Fluid 2XL",
+                    "slug": "2-xl",
+                    "size": "clamp(1.8rem, 2.5vw, 2.7rem)"
                 },
                 {
-                    "name": "Fluid 3xl",
-                    "slug": "3xl",
-                    "size": "clamp(2.0rem, 4vw, 4rem)"
+                    "name": "Fluid 3XL",
+                    "slug": "3-xl",
+                    "size": "clamp(2.0rem, 3vw, 4rem)"
                 },
                 {
-                    "name": "Fluid 4xl",
-                    "slug": "4xl",
-                    "size": "clamp(3rem, 6vw, 6rem)"
+                    "name": "Fluid 4XL",
+                    "slug": "4-xl",
+                    "size": "clamp(3rem, 3.5vw, 6rem)"
                 },
                 {
-                    "name": "Fluid 5xl",
-                    "slug": "5xl",
-                    "size": "clamp(4rem, 8vw, 8rem)"
+                    "name": "Fluid 5XL",
+                    "slug": "5-xl",
+                    "size": "clamp(4rem, 4vw, 8rem)"
                 }
             ]
         }
@@ -291,17 +291,17 @@
         "elements": {
             "h1": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--4xl)"
+                    "fontSize": "var(--wp--preset--font-size--4-xl)"
                 }
             },
             "h2": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--3xl)"
+                    "fontSize": "var(--wp--preset--font-size--3-xl)"
                 }
             },
             "h3": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--2xl)"
+                    "fontSize": "var(--wp--preset--font-size--2-xl)"
                 }
             },
             "h4": {
@@ -312,6 +312,11 @@
             "h5": {
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--l)"
+                }
+            },
+            "h6": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--m)"
                 }
             },
             "link": {
