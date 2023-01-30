@@ -16,28 +16,18 @@
   box-sizing: border-box;
 }
 
-#kide-intro-col-1 > h2, p {
-  margin: 2.0rem;
-}
-
 #kide-intro-col-2 > figure {
   margin: 0;
 }
 
-/*@media only screen and (min-width: 1000px) {
-  #kide-intro-col-2 > figure {
-    margin-top: 5.0rem;
-    margin-right: 5.0rem;
-    margin-bottom: 0;
-    margin-left: 5.0rem;
+@media only screen and (min-width: 1000px) {
+  #kide-intro-col-1 {
+    padding: 0;
   }
 }
 
 @media only screen and (min-width: 1600px) {
-  #kide-intro-col-2 > figure {
-    margin-top: 5.0rem;
-    margin-right: 5.0rem;
-    margin-bottom: 5.0rem;
-    margin-left: 2.5rem;
+  #kide-intro-col-1 {
+    margin-right: 4rem;
   }
-}*/
+}
