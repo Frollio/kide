@@ -262,7 +262,7 @@
                 {
                     "name": "Fluid 3XL",
                     "slug": "3-xl",
-                    "size": "clamp(2.0rem, 3vw, 4rem)"
+                    "size": "clamp(2.5rem, 3vw, 4rem)"
                 },
                 {
                     "name": "Fluid 4XL",
