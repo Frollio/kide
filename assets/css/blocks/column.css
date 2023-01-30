@@ -1,6 +1,19 @@
 
+/**
+ * Header column
+ */
+
 .kide-header-column {
   text-align: center;
+}
+
+/**
+ * Site intro column
+ */
+
+#kide-intro-col-1 {
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
 #kide-intro-col-1 > h2, p {
@@ -11,7 +24,7 @@
   margin: 0;
 }
 
-@media only screen and (min-width: 1000px) {
+/*@media only screen and (min-width: 1000px) {
   #kide-intro-col-2 > figure {
     margin-top: 5.0rem;
     margin-right: 5.0rem;
@@ -27,4 +40,4 @@
     margin-bottom: 5.0rem;
     margin-left: 2.5rem;
   }
-}
+}*/
