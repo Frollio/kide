@@ -225,14 +225,14 @@
             ],
             "fontSizes": [
                 {
-                    "name": "Static xxs",
-                    "slug": "xxs",
-                    "size": "0.6rem"
+                    "name": "Fluid 2xs",
+                    "slug": "2xs",
+                    "size": "clamp(0.6rem, 0.6vw, 0.7rem)"
                 },
                 {
-                    "name": "Static xs",
+                    "name": "Fluid xs",
                     "slug": "xs",
-                    "size": "0.8rem"
+                    "size": "clamp(0.8rem, 0.8vw, 1rem)"
                 },
                 {
                     "name": "Static s",
@@ -255,23 +255,23 @@
                     "size": "clamp(1.6rem, 2vw, 2.4rem)"
                 },
                 {
-                    "name": "Fluid xxl",
-                    "slug": "xxl",
+                    "name": "Fluid 2xl",
+                    "slug": "2xl",
                     "size": "clamp(1.8rem, 3vw, 2.7rem)"
                 },
                 {
-                    "name": "Fluid xxxl",
-                    "slug": "xxxl",
+                    "name": "Fluid 3xl",
+                    "slug": "3xl",
                     "size": "clamp(2.0rem, 4vw, 4rem)"
                 },
                 {
-                    "name": "Fluid xxxxl",
-                    "slug": "xxxxl",
+                    "name": "Fluid 4xl",
+                    "slug": "4xl",
                     "size": "clamp(3rem, 6vw, 6rem)"
                 },
                 {
-                    "name": "Fluid xxxxxl",
-                    "slug": "xxxxxl",
+                    "name": "Fluid 5xl",
+                    "slug": "5xl",
                     "size": "clamp(4rem, 8vw, 8rem)"
                 }
             ]
@@ -291,17 +291,17 @@
         "elements": {
             "h1": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--xxxxl)"
+                    "fontSize": "var(--wp--preset--font-size--4xl)"
                 }
             },
             "h2": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--xxxl)"
+                    "fontSize": "var(--wp--preset--font-size--3xl)"
                 }
             },
             "h3": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--xxl)"
+                    "fontSize": "var(--wp--preset--font-size--2xl)"
                 }
             },
             "h4": {
