@@ -7,35 +7,35 @@
    * */
 ?>
 
-<!-- wp:group {"layout":{"type":"constrained"}} -->
+<!-- wp:group {"layout":{"type":"constrained","wideSize":"1000px"}} -->
 <div class="wp-block-group">
   
   <!-- wp:heading {"fontSize":"5-xl"} -->
-  <h2 class="has-5-xl-font-size" id="h1-5xl-otsikko">H1 5XL Otsikko</h2>
+  <h2 class="has-5-xl-font-size" id="h1-5xl-otsikko">H1 5XL Otsikko potsikko pusikko asiaton loton poton pytyn</h2>
   <!-- /wp:heading -->
 
   <!-- wp:heading {"level":1} -->
-  <h1 id="h1-otsikko">H1 Otsikko</h1>
+  <h1 id="h1-otsikko">H1 Otsikko potsikko pusikko asiaton loton poton pytyn</h1>
   <!-- /wp:heading -->
 
   <!-- wp:heading -->
-  <h2 id="h2-otsikko">H2 Otsikko</h2>
+  <h2 id="h2-otsikko">H2 Otsikko potsikko pusikko asiaton loton poton pytyn</h2>
   <!-- /wp:heading -->
 
   <!-- wp:heading {"level":3} -->
-  <h3 id="h3-otsikko">H3 Otsikko</h3>
+  <h3 id="h3-otsikko">H3 Otsikko potsikko pusikko asiaton loton poton pytyn</h3>
   <!-- /wp:heading -->
 
   <!-- wp:heading {"level":4} -->
-  <h4 id="h4-otsikko">H4 Otsikko</h4>
+  <h4 id="h4-otsikko">H4 Otsikko potsikko pusikko asiaton loton poton pytyn</h4>
   <!-- /wp:heading -->
 
   <!-- wp:heading {"level":5} -->
-  <h5 id="h5-otsikko">H5 Otsikko</h5>
+  <h5 id="h5-otsikko">H5 Otsikko potsikko pusikko asiaton loton poton pytyn</h5>
   <!-- /wp:heading -->
 
   <!-- wp:heading {"level":6} -->
-  <h6 id="h6-otsikko">H6 Otsikko</h6>
+  <h6 id="h6-otsikko">H6 Otsikko potsikko pusikko asiaton loton poton pytyn</h6>
   <!-- /wp:heading -->
 
   <!-- wp:paragraph -->
