@@ -10,6 +10,10 @@
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
   
+  <!-- wp:heading {"fontSize":"5-xl"} -->
+  <h2 class="has-5-xl-font-size" id="h1-5xl-otsikko">H1 5XL Otsikko</h2>
+  <!-- /wp:heading -->
+
   <!-- wp:heading {"level":1} -->
   <h1 id="h1-otsikko">H1 Otsikko</h1>
   <!-- /wp:heading -->
@@ -36,6 +40,14 @@
 
   <!-- wp:paragraph -->
   <p>Kappale: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <!-- /wp:paragraph -->
+
+  <!-- wp:paragraph {"fontSize":"xs"} -->
+  <p class="has-xs-font-size">XS: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <!-- /wp:paragraph -->
+
+  <!-- wp:paragraph {"fontSize":"2-xs"} -->
+  <p class="has-2-xs-font-size">2XS: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <!-- /wp:paragraph -->
 
 </div>
