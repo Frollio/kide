@@ -232,17 +232,17 @@
                 {
                     "name": "Fluid XS",
                     "slug": "xs",
-                    "size": "clamp(0.8rem, 0.8vw, 1rem)"
+                    "size": "clamp(0.8rem, 0.9vw, 1rem)"
                 },
                 {
                     "name": "Static S",
                     "slug": "s",
-                    "size": "clamp(1.0rem, 1vw, 1.2rem)"
+                    "size": "clamp(1.0rem, 1.1vw, 1.2rem)"
                 },
                 {
                     "name": "Fluid M",
                     "slug": "m",
-                    "size": "clamp(1.2rem, 1.2vw, 1.4rem)"
+                    "size": "clamp(1.2rem, 1.3vw, 1.4rem)"
                 },
                 {
                     "name": "Fluid L",
@@ -262,17 +262,17 @@
                 {
                     "name": "Fluid 3XL",
                     "slug": "3-xl",
-                    "size": "clamp(2.5rem, 3vw, 4rem)"
+                    "size": "clamp(2rem, 3vw, 4rem)"
                 },
                 {
                     "name": "Fluid 4XL",
                     "slug": "4-xl",
-                    "size": "clamp(3rem, 3.5vw, 6rem)"
+                    "size": "clamp(3rem, 4vw, 5rem)"
                 },
                 {
                     "name": "Fluid 5XL",
                     "slug": "5-xl",
-                    "size": "clamp(4rem, 4vw, 8rem)"
+                    "size": "clamp(4rem, 5vw, 6rem)"
                 }
             ]
         }
