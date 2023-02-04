@@ -3,9 +3,15 @@
  * Latest posts list
  */
 
- .kide-latest-posts-list li {
+.kide-latest-posts-list {
+  width: 100%;
+}
+
+.kide-latest-posts-list li {
   display: grid;
   margin-bottom: 2rem;
+  padding: 1rem;
+  border-bottom: solid 5px var(--wp--preset--color--background-4);
 }
 
 .kide-latest-posts-list > li > time {

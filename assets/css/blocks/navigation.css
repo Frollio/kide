@@ -24,6 +24,8 @@
 /* Responsive menu > first-level items */
 .kide-header-navigation > div > div > div > div > ul > li {
   font-size: 2.0rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 /* Responsive menu, None-responsive menu > submenu containers */
@@ -53,7 +55,6 @@
   }
 }
 
-/* None-responsive navigation menu */
 @media only screen and (min-width: 1000px) {
   /* None-responsive menu, container */
   .kide-header-navigation {

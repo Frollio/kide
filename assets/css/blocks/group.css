@@ -9,7 +9,14 @@
 
 .kide-latest-list-stack {
   display: grid;
-  gap: 4.0rem;
-  max-width: 1000px !important;
-  padding: 4.0rem;
+  gap: 2rem;
+  max-width: 1200px !important;
+  padding: 2rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .kide-latest-list-stack {
+    gap: 4rem;
+    padding: 4rem;
+  }
 }
