@@ -16,10 +16,10 @@
     <!-- wp:column {"verticalAlignment":"center","className":"kide-site-intro-column} -->
     <div id="kide-intro-col-1" class="wp-block-column is-vertically-aligned-center kide-site-intro-column">
       <!-- wp:heading {"textAlign":"center","level":1} -->
-      <h1 class="has-text-align-center has-xxxxl-font-size" id="introduction-heading">Introduction heading</h1>
+      <h1 class="has-text-align-center has-xxxxl-font-size" id="introduction-heading">Much welcome to Kide theme</h1>
       <!-- /wp:heading -->
       <!-- wp:paragraph {"align":"center","fontSize":"m"} -->
-      <p class="has-text-align-center has-m-font-size">Your introduction text for the end-user to understand what this page is about.</p>
+      <p class="has-text-align-center has-m-font-size">You can put your introduction text here for the end-user to understand what this page is about. More text makes this section more high. Widths of these columns are preset but heights not.</p>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:column -->
