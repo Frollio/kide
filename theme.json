@@ -45,9 +45,9 @@
                     "slug": "font4"
                 },
                 {
-                    "name": "Colour",
-                    "color": "#cc00ff",
-                    "slug": "colour"
+                    "name": "Kide Violet",
+                    "color": "#b69bca",
+                    "slug": "kide-violet"
                 }
             ]
         },
@@ -331,7 +331,15 @@
             },
             "link": {
                 "color": {
-                    "text": "var(--wp--preset--color--font-4)"
+                    "text": "var(--wp--preset--color--kide-violet)"
+                },
+                "typography": {
+                    "textDecoration": "none"
+                },
+                ":hover": {
+                    "typography": {
+                        "textDecoration": "underline"
+                    }
                 }
             }
         }
