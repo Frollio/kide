@@ -24,29 +24,3 @@
     grid-area: 1 / 1 / 1 / 1;
   }
 }
-
-/**
- * Latest posts grid
- */
-
-.kide-latest-posts-grid li {
-  display: grid;
-}
-
-.kide-latest-posts-grid :first-child {
-  margin-bottom: 0.5rem;
-}
-
-@media only screen and (min-width: 1600px) {
-  .kide-latest-posts-grid li {
-    grid-template-columns: 25% 75%;
-    gap: 2rem;
-    margin-right: 4rem;
-  }
-  .kide-latest-posts-grid > li > a {
-    grid-area: 1 / 2 / 1 / 2;
-  }
-  .kide-latest-posts-grid > li > time {
-    grid-area: 1 / 1 / 1 / 1;
-  }
-}

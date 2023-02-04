@@ -13,17 +13,3 @@
   max-width: 1000px !important;
   padding: 4.0rem;
 }
-
-/**
- * Latest posts grid section
- */
-
-#kide-latest-grid-group {
-  display: grid;
-  gap: 4.0rem;
-  padding: 4.0rem;
-}
-
-.kide-latest-grid-row{
-  max-width: 1600px !important;
-}
