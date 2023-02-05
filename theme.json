@@ -299,6 +299,11 @@
                     }
                 }
             },
+            "core/post-author": {
+                "color": {
+                    "text": "var(--wp--preset--color--kide-violet)"
+                }
+            },
             "core/post-featured-image": {
                 "spacing": {
                     "margin": {

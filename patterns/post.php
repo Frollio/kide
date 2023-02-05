@@ -12,12 +12,16 @@
   
   <!-- wp:post-title {"level":1} /-->
 
-  <!-- wp:post-date /-->
+  <!-- wp:group {"className":"kide-post-author-row","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
+  <div class="wp-block-group kide-post-author-row">
 
-  <!-- wp:post-author {"showBio":false} /-->
+    <!-- wp:post-author {"showAvatar":false,"showBio":false} /-->
+    <!-- wp:post-date /-->
+
+  </div>
+  <!-- /wp:group -->
 
   <!-- wp:post-featured-image /-->
-
   <!-- wp:post-content /-->
 
 </section>
