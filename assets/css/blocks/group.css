@@ -20,3 +20,12 @@
     padding: 4rem;
   }
 }
+
+/*
+ * Post
+ **/
+
+.kide-post {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
