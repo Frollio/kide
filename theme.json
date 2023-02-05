@@ -279,11 +279,27 @@
     },
     "styles": {
         "blocks": {
+            "core/image": {
+                "spacing": {
+                    "margin": {
+                        "top": "2rem",
+                        "bottom": "2rem"
+                    }
+                }
+            },
             "core/paragraph": {
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--s)",
                     "lineHeight": "2.5"
                 },
+                "spacing": {
+                    "margin": {
+                        "top": "2rem",
+                        "bottom": "2rem"
+                    }
+                }
+            },
+            "core/post-featured-image": {
                 "spacing": {
                     "margin": {
                         "top": "2rem",
