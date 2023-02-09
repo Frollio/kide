@@ -7,8 +7,8 @@
    * */
 ?>
 
-<!-- wp:group {"tagName":"section","id":"kide-latest-list-group","backgroundColor":"background3","layout":{"type":"constrained","justifyContent":"center"}} -->
-<section id="kide-latest-list-group" class="wp-block-group has-background-3-background-color has-background">
+<!-- wp:group {"tagName":"section","id":"kide-latest-list-group","backgroundColor":"dark-3","layout":{"type":"constrained","justifyContent":"center"}} -->
+<section id="kide-latest-list-group" class="wp-block-group has-dark-3-background-color has-background">
   
   <!-- wp:group {"className":"kide-latest-list-stack","layout":{"type":"flex","orientation":"vertical"}} -->
   <div class="wp-block-group kide-latest-list-stack">

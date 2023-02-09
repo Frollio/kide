@@ -5,44 +5,54 @@
         "color": {
             "palette": [
                 {
-                    "name": "Background 1",
+                    "name": "Black",
                     "color": "#000000",
-                    "slug": "background1"
+                    "slug": "black"
                 },
                 {
-                    "name": "Background 2",
+                    "name": "Dark 1",
+                    "color": "#000000",
+                    "slug": "dark-1"
+                },
+                {
+                    "name": "Dark 2",
                     "color": "#191919",
-                    "slug": "background2"
+                    "slug": "dark-2"
                 },
                 {
-                    "name": "Background 3",
+                    "name": "Dark 3",
                     "color": "#262626",
-                    "slug": "background3"
+                    "slug": "dark-3"
                 },
                 {
-                    "name": "Background 4",
+                    "name": "Dark 4",
                     "color": "#333333",
-                    "slug": "background4"
+                    "slug": "dark-4"
                 },
                 {
-                    "name": "Font 1",
+                    "name": "White",
+                    "color": "#000000",
+                    "slug": "white"
+                },
+                {
+                    "name": "Light 1",
                     "color": "#d9d9d9",
-                    "slug": "font1"
+                    "slug": "light-1"
                 },
                 {
-                    "name": "Font 2",
+                    "name": "Light 2",
                     "color": "#e6e6e6",
-                    "slug": "font2"
+                    "slug": "light-2"
                 },
                 {
-                    "name": "Font 3",
+                    "name": "Light 3",
                     "color": "#f2f2f2",
-                    "slug": "font3"
+                    "slug": "light-3"
                 },
                 {
-                    "name": "Font 4",
+                    "name": "Light 4",
                     "color": "#ffffff",
-                    "slug": "font4"
+                    "slug": "light-4"
                 },
                 {
                     "name": "Kide Violet",
@@ -314,8 +324,8 @@
             }
         },
         "color": {
-            "background": "var(--wp--preset--color--background-2)",
-            "text": "var(--wp--preset--color--font-2)"
+            "background": "var(--wp--preset--color--dark-2)",
+            "text": "var(--wp--preset--color--light-2)"
         },
         "typography": {
             "fontFamily": "var(--wp--preset--font-family--poppins)",

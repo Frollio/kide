@@ -31,7 +31,7 @@
 /* Responsive menu, None-responsive menu > submenu containers */
 /* Try to set these colors to header.html or theme.json */
 .kide-header-navigation > div, .kide-header-navigation .wp-block-navigation__submenu-container {
-  background-color: var(--wp--preset--color--background-1) !important;
+  background-color: var(--wp--preset--color--black) !important;
   color: var(--wp--preset--color--font-1) !important;
 }
 
