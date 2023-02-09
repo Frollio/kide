@@ -11,22 +11,22 @@
                 },
                 {
                     "name": "Dark 1",
-                    "color": "#000000",
+                    "color": "#191919",
                     "slug": "dark-1"
                 },
                 {
                     "name": "Dark 2",
-                    "color": "#191919",
+                    "color": "#1e1e1e",
                     "slug": "dark-2"
                 },
                 {
                     "name": "Dark 3",
-                    "color": "#262626",
+                    "color": "#232323",
                     "slug": "dark-3"
                 },
                 {
                     "name": "Dark 4",
-                    "color": "#333333",
+                    "color": "#282828",
                     "slug": "dark-4"
                 },
                 {
@@ -36,22 +36,22 @@
                 },
                 {
                     "name": "Light 1",
-                    "color": "#d9d9d9",
+                    "color": "#e6e6e6",
                     "slug": "light-1"
                 },
                 {
                     "name": "Light 2",
-                    "color": "#e6e6e6",
+                    "color": "#e1e1e1",
                     "slug": "light-2"
                 },
                 {
                     "name": "Light 3",
-                    "color": "#f2f2f2",
+                    "color": "#dcdcdc",
                     "slug": "light-3"
                 },
                 {
                     "name": "Light 4",
-                    "color": "#ffffff",
+                    "color": "#d7d7d7",
                     "slug": "light-4"
                 },
                 {
