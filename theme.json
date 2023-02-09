@@ -5,34 +5,24 @@
         "color": {
             "palette": [
                 {
-                    "name": "Black",
-                    "color": "#000000",
-                    "slug": "black"
-                },
-                {
                     "name": "Dark 1",
                     "color": "#191919",
                     "slug": "dark-1"
                 },
                 {
                     "name": "Dark 2",
-                    "color": "#1e1e1e",
+                    "color": "#232323",
                     "slug": "dark-2"
                 },
                 {
                     "name": "Dark 3",
-                    "color": "#232323",
+                    "color": "#2d2d2d",
                     "slug": "dark-3"
                 },
                 {
                     "name": "Dark 4",
-                    "color": "#282828",
+                    "color": "#373737",
                     "slug": "dark-4"
-                },
-                {
-                    "name": "White",
-                    "color": "#000000",
-                    "slug": "white"
                 },
                 {
                     "name": "Light 1",
