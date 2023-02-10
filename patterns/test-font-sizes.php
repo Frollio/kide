@@ -10,7 +10,7 @@
 <!-- wp:group {"layout":{"type":"constrained","wideSize":"1000px"}} -->
 <div class="wp-block-group">
 
-  <!-- wp:group {"className":"kide-test-font-container","layout":{"type":"flex","orientation":"vertical"}} -->
+  <!-- wp:group {"className":"kide-test-font-container","layout":{"type":"constrained"}} -->
   <div class="wp-block-group kide-test-font-container">
     
     <!-- wp:heading {"fontSize":"5-xl"} -->
