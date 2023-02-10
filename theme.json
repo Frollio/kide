@@ -304,6 +304,13 @@
                     "text": "var(--wp--preset--color--kide-violet)"
                 }
             },
+            "core/post-content": {
+                "spacing": {
+                    "margin": {
+                        "bottom": "4rem"
+                    }
+                }
+            },
             "core/post-featured-image": {
                 "spacing": {
                     "margin": {
