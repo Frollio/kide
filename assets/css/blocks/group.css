@@ -33,3 +33,11 @@
 .kide-post-author-row > * {
   margin-right: 1rem !important;
 }
+
+/*
+ * Test font sizes
+ **/
+
+.kide-test-font-container {
+  padding: 2rem;
+}
