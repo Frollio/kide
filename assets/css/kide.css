@@ -1,8 +1,12 @@
 
- /*
-  * For keeping footer at the bottom of the viewport
-  * in pages with little of content
-  */
+* {
+  box-sizing: border-box;
+}
+
+/*
+ * For keeping footer at the bottom of the viewport
+ * in pages with little of content
+ */
 
 html, body, body > div {
   height: 100%;
