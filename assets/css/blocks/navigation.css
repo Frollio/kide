@@ -1,46 +1,53 @@
 
-/* Responsive menu */
+/*
+ * Header – Narrow screen navigation
+ */
+
 .kide-header-navigation {
-  line-height: 3.0rem;
-  justify-content: center !important; /* Centering menu icon */
+  /*line-height: 3.0rem;*/
+  justify-content: center !important; /* Center menu icon */
 }
 
-/* Responsive menu > container of lists */
+/* Menu > container of lists */
 .kide-header-navigation > div > div > div > div {
   align-items: center !important;
 }
 
-/* Responsive submenus > containers of lists */
+/* Submenus > containers of lists */
 .kide-header-navigation .wp-block-navigation__submenu-container {
   padding-top: 0 !important;
   font-size: 1.5rem;
 }
 
-/* Responsive menu > first level of navigation items */
+/* Menu > first level of navigation items */
 .kide-header-navigation .wp-block-navigation-submenu {
   padding-top: 1.0rem;
 }
 
-/* Responsive menu > first-level items */
+/* Menu > first-level items */
 .kide-header-navigation > div > div > div > div > ul > li {
   font-size: 2.0rem;
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
-/* Responsive menu, None-responsive menu > submenu containers */
+/* Menu, None-responsive menu > submenu containers */
 /* Try to set these colors to header.html or theme.json */
 .kide-header-navigation > div, .kide-header-navigation .wp-block-navigation__submenu-container {
   background-color: var(--wp--preset--color--black) !important;
   color: var(--wp--preset--color--font-1) !important;
 }
 
-/* Responsive menu > icon */
+/* Menu > icon */
 .kide-header-navigation .wp-block-navigation__responsive-container-close svg, 
 .kide-header-navigation .wp-block-navigation__responsive-container-open svg {
   width: auto;
   height: 70px;
 }
+
+/*
+ * Header – Wide screen navigation
+ */
 
 @media only screen and (max-width: 999px) {
   /* Responsive navigation menu */
