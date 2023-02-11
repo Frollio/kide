@@ -1,5 +1,15 @@
 
 /**
+ * Header container
+ */
+
+.kide-header-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+}
+
+/**
  * Latest posts list section
  */
 
