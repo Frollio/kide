@@ -3,51 +3,29 @@
  * Header – Narrow screen navigation
  */
 
-.kide-header-navigation {
-  /*line-height: 3.0rem;*/
-  justify-content: center !important; /* Center menu icon */
-}
-
-/* Menu > container of lists */
 .kide-header-navigation > div > div > div > div {
   align-items: center !important;
 }
 
-/* Submenus > containers of lists */
-.kide-header-navigation .wp-block-navigation__submenu-container {
-  padding-top: 0 !important;
-  font-size: 1.5rem;
-}
-
-/* Menu > first level of navigation items */
-.kide-header-navigation .wp-block-navigation-submenu {
-  padding-top: 1.0rem;
-}
-
-/* Menu > first-level items */
 .kide-header-navigation > div > div > div > div > ul > li {
   font-size: 2.0rem;
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
-/* Menu, None-responsive menu > submenu containers */
-/* Try to set these colors to header.html or theme.json */
-.kide-header-navigation > div, .kide-header-navigation .wp-block-navigation__submenu-container {
-  background-color: var(--wp--preset--color--black) !important;
-  color: var(--wp--preset--color--font-1) !important;
+.kide-header-navigation > div > div > div > div > ul > li ul {
+  padding-top: 0 !important;
+  font-size: 1.5rem;
 }
 
-/* Menu > icon */
-.kide-header-navigation .wp-block-navigation__responsive-container-close svg, 
-.kide-header-navigation .wp-block-navigation__responsive-container-open svg {
+.kide-header-navigation > div > div > div > div > ul > li > ul li {
+  padding-top: 1.0rem;
+}
+
+.kide-header-navigation > button > svg {
   width: auto;
   height: 70px;
 }
-
-/*
- * Header – Wide screen navigation
- */
 
 @media only screen and (max-width: 999px) {
   /* Responsive navigation menu */
@@ -62,26 +40,26 @@
   }
 }
 
+/*
+ * Header – Wide screen navigation
+ */
+
 @media only screen and (min-width: 1000px) {
-  /* None-responsive menu, container */
   .kide-header-navigation {
     font-size: 1.2rem;
     line-height: 2.0rem;
   }
-  /* None-responsive menu > first level of navigation items */
-  .kide-header-navigation .wp-block-navigation-submenu {
-    padding-top: 0;
+  .kide-header-navigation a {
+    padding-right: 0;
   }
-  /* None-responsive menu > container of list items */
   .kide-header-navigation > div > div > div > div > ul {
+    gap: 0;
     justify-content: center;
   }
-  /* None-responsive menu > first-level items */
-  .kide-header-navigation > div > div > div > div > ul > li {
+  .kide-header-navigation > div > div > div > div > ul li {
     font-size: 1.2rem;
   }
-  /* None-responsive menu A submenu containers */
-  .kide-header-navigation .wp-block-navigation__submenu-container {
-    font-size: 1.2rem;
+  .kide-header-navigation > div > div > div > div > ul > li > ul li {
+    padding-top: 0;
   }
 }
