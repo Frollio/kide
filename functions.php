@@ -19,7 +19,7 @@ add_action( 'after_setup_theme', 'kide_setup' );
   function kide_styles() {
     wp_enqueue_style( 'style', get_stylesheet_uri() );
     wp_enqueue_style( 'kide', get_template_directory_uri() . 
-      '/assets/css/kide.css', false, '0.2.0', 'all' );
+      '/assets/css/kide.css', false, '0.3.0', 'all' );
   }
 endif;
 add_action( 'wp_enqueue_scripts', 'kide_styles' );
