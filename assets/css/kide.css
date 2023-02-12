@@ -1,4 +1,10 @@
 
+/**
+ * 1 General fixes
+ *
+ * These styles fix common problems. They should be moved to the theme.json, if possible.
+ */
+
 * {
   box-sizing: border-box;
 }
@@ -7,12 +13,16 @@ a span:hover {
   text-decoration: underline;
 }
 
-/*
- * For keeping footer at the bottom of the viewport
- * in pages with little of content
+
+/**
+ * 2 Footer layout
+ *
+ * For keeping footer at the bottom of the viewport in pages with little of content.
  */
 
-html, body, body > div {
+html,
+body,
+body > div {
   height: 100%;
 }
 
