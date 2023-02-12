@@ -27,6 +27,11 @@
   height: 70px;
 }
 
+.kide-header-navigation > div > div > div > button > svg {
+  width: auto;
+  height: 70px;
+}
+
 @media only screen and (max-width: 999px) {
   /* Responsive navigation menu */
   .wp-block-navigation__responsive-container-open, 
