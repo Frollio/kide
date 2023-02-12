@@ -1,6 +1,6 @@
 
-/*
- * Header – Narrow screen navigation
+/**
+ * 1 Header – Narrow screen navigation
  */
 
 .kide-header-navigation > div > div > div > div {
@@ -45,8 +45,9 @@
   }
 }
 
-/*
- * Header – Wide screen navigation
+
+/**
+ * 2 Header – Wide screen navigation
  */
 
 @media only screen and (min-width: 1000px) {
