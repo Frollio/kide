@@ -6,7 +6,7 @@
         "useRootPaddingAwareAlignments": true,
         "layout": {
             "contentSize": "1200px",
-            "wideSize": "1000px"
+            "wideSize": "2000px"
         },
         "color": {
             "palette": [
