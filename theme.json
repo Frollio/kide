@@ -54,6 +54,11 @@
                     "name": "Kide Violet",
                     "color": "#b69bca",
                     "slug": "kide-violet"
+                },
+                {
+                    "name": "Kide Purple",
+                    "color": "#d194d1",
+                    "slug": "kide-purple"
                 }
             ]
         },
@@ -285,6 +290,11 @@
     },
     "styles": {
         "blocks": {
+            "core/heading": {
+                "color": {
+                    "text": "var(--wp--preset--color--kide-violet)"
+                }
+            },
             "core/image": {
                 "spacing": {
                     "margin": {
@@ -401,7 +411,7 @@
             },
             "link": {
                 "color": {
-                    "text": "var(--wp--preset--color--kide-violet)"
+                    "text": "var(--wp--preset--color--kide-purple)"
                 },
                 "typography": {
                     "textDecoration": "none"
