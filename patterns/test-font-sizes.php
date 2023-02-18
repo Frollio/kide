@@ -7,11 +7,11 @@
    * */
 ?>
 
-<!-- wp:group {"layout":{"type":"constrained","wideSize":"1000px"}} -->
-<div class="wp-block-group">
+<!-- wp:group {"tagName":"section","align":"full","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull">
 
-  <!-- wp:group {"className":"kide-test-font-container","layout":{"type":"constrained"}} -->
-  <div class="wp-block-group kide-test-font-container">
+  <!-- wp:group {"style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}},"className":"kide-test-font-container","layout":{"type":"constrained"}} -->
+  <div class="wp-block-group kide-test-font-container" style="padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
     
     <!-- wp:heading {"level":1,"fontSize":"8-xl"} -->
     <h1 class="has-8-xl-font-size" id="h1-8xl-otsikko">H1 8XL Otsikko potsikko pusikko asiaton loton poton pytyn</h2>
