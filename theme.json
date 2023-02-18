@@ -408,6 +408,9 @@
             "background": "var(--wp--preset--color--dark-2)",
             "text": "var(--wp--preset--color--light-2)"
         },
+        "spacing": {
+            "blockGap": "0"
+        },
         "typography": {
             "fontFamily": "var(--wp--preset--font-family--poppins)",
             "fontSize": "16px",
