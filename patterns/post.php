@@ -7,8 +7,8 @@
    * */
 ?>
 
-<!-- wp:group {"tagName":"section","className":"kide-post","layout":{"type":"constrained","contentSize":"1200px"}} -->
-<section class="wp-block-group kide-post">
+<!-- wp:group {"tagName":"section","style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}},"className":"kide-post","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<section class="wp-block-group kide-post" style="padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
   
   <!-- wp:post-title {"level":1} /-->
 

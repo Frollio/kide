@@ -31,11 +31,6 @@
  * 3 Post
  **/
 
-.kide-post {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .kide-post-author-row > * {
   margin-right: 1rem !important;
 }
