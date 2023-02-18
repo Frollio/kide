@@ -9,7 +9,7 @@
 
 .kide-latest-posts-list li {
   display: grid;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
   border-bottom: solid 5px var(--wp--preset--color--dark-4);
 }
 
