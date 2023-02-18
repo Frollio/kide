@@ -7,11 +7,11 @@
    * */
 ?>
 
-<!-- wp:group {"tagName":"section","id":"kide-latest-list-group","backgroundColor":"dark-3","layout":{"type":"constrained","justifyContent":"center"}} -->
-<section id="kide-latest-list-group" class="wp-block-group has-dark-3-background-color has-background">
+<!-- wp:group {"tagName":"section","align":"full","backgroundColor":"dark-3","layout":{"type":"constrained","justifyContent":"center"}} -->
+<section class="wp-block-group alignfull has-dark-3-background-color has-background">
   
-  <!-- wp:group {"className":"kide-latest-list-stack","layout":{"type":"flex","orientation":"vertical"}} -->
-  <div class="wp-block-group kide-latest-list-stack">
+  <!-- wp:group {"style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}},"className":"kide-latest-list-stack","layout":{"type":"flex","orientation":"vertical"}} -->
+  <div class="wp-block-group kide-latest-list-stack" style="padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
 
     <!-- wp:heading -->
     <h2 id="latest-posts-list-heading">Latest posts</h2>
