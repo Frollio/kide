@@ -1,6 +1,8 @@
 
 /**
- * Site intro wide column
+ * Wide image site intro columns
+ *
+ * The image has left and right spacing in narrow viewports.
  */
 
 .kide-site-intro-wide-column-1 * {
@@ -26,19 +28,21 @@
 
 @media only screen and (min-width: 1600px) {
   .kide-site-intro-wide-column-1 {
-    margin-right: 4rem !important;
+    margin-right: 4rem !important; /* Overrides smaller margin set in block markup */
   }
   .kide-site-intro-wide-column-1 > :first-child {
     margin-top: 0;
   }
 }
 
+
 /**
- * Site intro full column
+ * Full image site intro column
+ *
+ * The image has no left and right spacing in narrow viewports.
  */
 
 .kide-site-intro-full-column-1 {
-  padding: 2rem;
   box-sizing: border-box;
 }
 
@@ -65,7 +69,7 @@
 
 @media only screen and (min-width: 1000px) {
   .kide-site-intro-full-column-1 {
-    padding: 0;
+    padding: 0 !important; /* Removes margin set in block markup */
   }
   .kide-site-intro-full-column-1 > :first-child {
     margin-top: 2rem;
@@ -74,7 +78,7 @@
 
 @media only screen and (min-width: 1600px) {
   .kide-site-intro-full-column-1 {
-    margin-right: 4rem !important;
+    margin-right: 4rem !important; /* Overrides smaller margin set in block markup */
   }
   .kide-site-intro-full-column-1 > :first-child {
     margin-top: 0;

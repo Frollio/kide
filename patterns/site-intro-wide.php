@@ -7,11 +7,11 @@
  */
 ?>
 
-<!-- wp:group {"tagName":"section","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-<section class="wp-block-group">
+<!-- wp:group {"tagName":"section","align":"full","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull">
   
-  <!-- wp:columns {"className":"kide-site-intro-wide-columns"} -->
-  <div class="wp-block-columns kide-site-intro-wide-columns">
+  <!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}},"className":"kide-site-intro-wide-columns"} -->
+  <div class="wp-block-columns alignwide kide-site-intro-wide-columns" style="padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
   
     <!-- wp:column {"verticalAlignment":"center","className":"kide-site-intro-wide-column-1} -->
     <div class="wp-block-column is-vertically-aligned-center kide-site-intro-wide-column-1">
