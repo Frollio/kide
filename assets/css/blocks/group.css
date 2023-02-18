@@ -4,8 +4,8 @@
  */
 
 .kide-header-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
+  /*display: grid !important;
+  grid-template-columns: auto auto auto;*/
   justify-content: space-evenly;
 }
 
