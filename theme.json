@@ -463,7 +463,7 @@
             "text": "var(--wp--preset--color--light-2)"
         },
         "spacing": {
-            "blockGap": "0"
+            "blockGap": "var(--wp--preset--spacing--fluid-20)"
         },
         "typography": {
             "fontFamily": "var(--wp--preset--font-family--poppins)",
