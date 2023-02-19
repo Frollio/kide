@@ -9,6 +9,7 @@
             "wideSize": "2000px"
         },
         "spacing": {
+            "blockGap": false,
             "spacingSizes": [
                 {
                     "size": "clamp(0.5rem, 1.2vw, 1rem)",
@@ -411,17 +412,33 @@
         }
     },
     "styles": {
+        "spacing": {
+            "blockGap": "0"
+        },
         "blocks": {
+            "core/group": {
+                "spacing": {
+                    "margin": {
+                        "top": "0"
+                    }
+                }
+            },
             "core/heading": {
                 "color": {
                     "text": "var(--wp--preset--color--kide-violet)"
+                },
+                "spacing": {
+                    "margin": {
+                        "top": "var(--wp--preset--spacing--fluid-20)",
+                        "bottom": "var(--wp--preset--spacing--fluid-20)"
+                    }
                 }
             },
             "core/image": {
                 "spacing": {
                     "margin": {
-                        "top": "2.5rem",
-                        "bottom": "2.5rem"
+                        "top": "var(--wp--preset--spacing--fluid-20)",
+                        "bottom": "var(--wp--preset--spacing--fluid-20)"
                     }
                 }
             },
@@ -432,8 +449,8 @@
                 },
                 "spacing": {
                     "margin": {
-                        "top": "2rem",
-                        "bottom": "2rem"
+                        "top": "var(--wp--preset--spacing--fluid-20)",
+                        "bottom": "var(--wp--preset--spacing--fluid-20)"
                     }
                 }
             },
@@ -445,15 +462,15 @@
             "core/post-content": {
                 "spacing": {
                     "margin": {
-                        "bottom": "4rem"
+                        "bottom": "var(--wp--preset--spacing--fluid-40)"
                     }
                 }
             },
             "core/post-featured-image": {
                 "spacing": {
                     "margin": {
-                        "top": "2rem",
-                        "bottom": "2rem"
+                        "top": "var(--wp--preset--spacing--fluid-20)",
+                        "bottom": "var(--wp--preset--spacing--fluid-20)"
                     }
                 }
             }
