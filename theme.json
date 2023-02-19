@@ -8,6 +8,60 @@
             "contentSize": "1200px",
             "wideSize": "2000px"
         },
+        "spacing": {
+            "spacingSizes": [
+                {
+                    "size": "clamp(0.5rem, 1.2vw, 1rem)",
+                    "slug": "fluid-05",
+                    "name": "Fluid 05"
+                },
+                {
+                    "size": "clamp(1.0rem, 2.4vw, 2rem)",
+                    "slug": "fluid-10",
+                    "name": "Fluid 10"
+                },
+                {
+                    "size": "clamp(1.5rem, 3.6vw, 3rem)",
+                    "slug": "fluid-15",
+                    "name": "Fluid 15"
+                },
+                {
+                    "size": "clamp(2.0rem, 4.8vw, 4rem)",
+                    "slug": "fluid-20",
+                    "name": "Fluid 20"
+                },
+                {
+                    "size": "clamp(2.5rem, 6.0vw, 5rem)",
+                    "slug": "fluid-25",
+                    "name": "Fluid 25"
+                },
+                {
+                    "size": "clamp(3.0rem, 7.2vw, 6rem)",
+                    "slug": "fluid-30",
+                    "name": "Fluid 30"
+                },
+                {
+                    "size": "clamp(3.5rem, 8.4vw, 7rem)",
+                    "slug": "fluid-35",
+                    "name": "Fluid 35"
+                },
+                {
+                    "size": "clamp(4.0rem, 9.6vw, 8rem)",
+                    "slug": "fluid-40",
+                    "name": "Fluid 40"
+                },
+                {
+                    "size": "clamp(4.5rem, 10.8vw, 9rem)",
+                    "slug": "fluid-45",
+                    "name": "Fluid 9"
+                },
+                {
+                    "size": "clamp(5.0rem, 12.0vw, 10rem)",
+                    "slug": "fluid-50",
+                    "name": "Fluid 50"
+                }
+            ]
+        },
         "color": {
             "palette": [
                 {
