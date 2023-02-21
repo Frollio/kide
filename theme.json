@@ -477,7 +477,7 @@
             "core/post-featured-image": {
                 "spacing": {
                     "margin": {
-                        "top": "var(--wp--preset--spacing--fluid-20)",
+                        "top": "var(--wp--preset--spacing--fluid-10)",
                         "bottom": "var(--wp--preset--spacing--fluid-20)"
                     }
                 }
