@@ -20,52 +20,52 @@
                 {
                     "size": "clamp(0.5rem, calc(0.5rem + ((1vw - 0.25rem) * 0.3704)), 1rem)",
                     "slug": "10",
-                    "name": "Fluid 05"
+                    "name": "Fluid 10"
                 },
                 {
                     "size": "clamp(1rem, calc(1rem + ((1vw - 0.25rem) * 0.7407)), 2rem)",
                     "slug": "20",
-                    "name": "Fluid 10"
+                    "name": "Fluid 20"
                 },
                 {
                     "size": "clamp(1.5rem, calc(1.5rem + ((1vw - 0.25rem) * 1.1111)), 3rem)",
                     "slug": "30",
-                    "name": "Fluid 15"
+                    "name": "Fluid 30"
                 },
                 {
                     "size": "clamp(2rem, calc(2rem + ((1vw - 0.25rem) * 1.4815)), 4rem)",
                     "slug": "40",
-                    "name": "Fluid 20"
+                    "name": "Fluid 40"
                 },
                 {
                     "size": "clamp(2.5rem, calc(2.5rem + ((1vw - 0.25rem) * 1.8519)), 5rem)",
                     "slug": "50",
-                    "name": "Fluid 25"
+                    "name": "Fluid 50"
                 },
                 {
                     "size": "clamp(3rem, calc(3rem + ((1vw - 0.25rem) * 2.2222)), 6rem)",
                     "slug": "60",
-                    "name": "Fluid 30"
+                    "name": "Fluid 60"
                 },
                 {
                     "size": "clamp(3.5rem, calc(3.5rem + ((1vw - 0.25rem) * 2.5926)), 7rem)",
                     "slug": "70",
-                    "name": "Fluid 35"
+                    "name": "Fluid 70"
                 },
                 {
                     "size": "clamp(4rem, calc(4rem + ((1vw - 0.25rem) * 2.963)), 8rem)",
                     "slug": "80",
-                    "name": "Fluid 40"
+                    "name": "Fluid 80"
                 },
                 {
                     "size": "clamp(4.5rem, calc(4.5rem + ((1vw - 0.25rem) * 3.3333)), 9rem)",
                     "slug": "90",
-                    "name": "Fluid 45"
+                    "name": "Fluid 90"
                 },
                 {
                     "size": "clamp(5rem, calc(5rem + ((1vw - 0.25rem) * 3.7037)), 10rem)",
                     "slug": "100",
-                    "name": "Fluid 50"
+                    "name": "Fluid 100"
                 }
             ]
         },
@@ -420,9 +420,6 @@
         }
     },
     "styles": {
-        "spacing": {
-            "blockGap": "0"
-        },
         "blocks": {
             "core/group": {
                 "spacing": {
