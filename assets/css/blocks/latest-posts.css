@@ -9,7 +9,7 @@
 
 .kide-latest-posts-list li {
   display: grid;
-  margin-top: 2rem;
+  margin-top: var(--wp--preset--spacing--20);
   border-bottom: solid 5px var(--wp--preset--color--dark-4);
 }
 
@@ -20,7 +20,7 @@
 @media only screen and (min-width: 800px) {
   .kide-latest-posts-list li {
     grid-template-columns: 30% 70%;
-    gap: 2rem;
+    gap: var(--wp--preset--spacing--20);
   }
   .kide-latest-posts-list > li > a {
     grid-area: 1 / 2 / 1 / 2;

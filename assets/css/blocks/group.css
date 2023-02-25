@@ -16,28 +16,12 @@
 
 .kide-latest-list-stack {
   display: grid;
-  gap: 2rem;
-}
-
-@media only screen and (min-width: 1000px) {
-  .kide-latest-list-stack {
-    gap: 4rem;
-    padding: 4rem !important; /* Overrides padding set in pattern */
-  }
+  gap: var(--wp--preset--spacing--20);
 }
 
 
 /**
- * 3 Post
- **/
-
-.kide-post-author-row > * {
-  margin-right: 1rem !important;
-}
-
-
-/**
- * 4 404
+ * 3 404
  **/
 
 .kide-404-outer-container {
