@@ -9,12 +9,6 @@
   flex-direction: column-reverse;
 }
 
-@media only screen and (min-width: 1000px) {
-  .kide-site-intro-wide-columns {
-    padding: 4rem !important; /* Overrides smaller padding set in block markup */
-  }
-}
-
 @media only screen and (min-width: 1600px) {
   .kide-site-intro-wide-columns {
     flex-direction: row;
@@ -30,12 +24,6 @@
 
 .kide-site-intro-full-columns {
   flex-direction: column-reverse;
-}
-
-@media only screen and (min-width: 1000px) {
-  .kide-site-intro-full-columns {
-    padding: 4rem;
-  }
 }
 
 @media only screen and (min-width: 1600px) {

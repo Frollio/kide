@@ -10,17 +10,20 @@
 <!-- wp:group {"tagName":"section","align":"full","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull">
   
-  <!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}},"className":"kide-site-intro-wide-columns"} -->
-  <div class="wp-block-columns alignwide kide-site-intro-wide-columns" style="padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
+  <!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"className":"kide-site-intro-wide-columns"} -->
+  <div class="wp-block-columns alignwide kide-site-intro-wide-columns" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
   
-    <!-- wp:column {"verticalAlignment":"center","className":"kide-site-intro-wide-column-1} -->
+    <!-- wp:column {"className":"is-vertically-aligned-center kide-site-intro-wide-column-1"} -->
     <div class="wp-block-column is-vertically-aligned-center kide-site-intro-wide-column-1">
-      <!-- wp:heading {"textAlign":"center","level":1} -->
-      <h1 class="has-text-align-center has-xxxxl-font-size" id="introduction-heading">Much welcome to Kide theme</h1>
+
+      <!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|20"}}},"className":"has-xxxxl-font-size"} -->
+      <h1 class="has-text-align-center has-xxxxl-font-size" id="introduction-heading" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--20)">Much welcome to Kide theme</h1>
       <!-- /wp:heading -->
-      <!-- wp:paragraph {"align":"center","fontSize":"m"} -->
-      <p class="has-text-align-center has-m-font-size">You can put your introduction text here for the end-user to understand what this page is about. More text makes this section more high. Widths of these columns are preset but heights not.</p>
+
+      <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"0","top":"var:preset|spacing|20"}},"typography":{"lineHeight":"2"}},"fontSize":"m"} -->
+      <p class="has-text-align-center has-m-font-size" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:0;line-height:2">You can put your introduction text here for the end-user to understand what this page is about. More text makes this section more high. Widths of these columns are preset but heights not.</p>
       <!-- /wp:paragraph -->
+
     </div>
     <!-- /wp:column -->
 
