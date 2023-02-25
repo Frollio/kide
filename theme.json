@@ -421,10 +421,21 @@
     },
     "styles": {
         "blocks": {
+            "core/columns": {
+                "spacing": {
+                    "margin": {
+                        "bottom": "0"
+                    }
+                }
+            },
             "core/group": {
                 "spacing": {
                     "margin": {
                         "top": "0"
+                    },
+                    "padding": {
+                        "top": "0",
+                        "bottom": "0"
                     }
                 }
             },
@@ -462,13 +473,6 @@
             "core/post-author": {
                 "color": {
                     "text": "var(--wp--preset--color--kide-violet)"
-                }
-            },
-            "core/post-content": {
-                "spacing": {
-                    "margin": {
-                        "bottom": "var(--wp--preset--spacing--80)"
-                    }
                 }
             },
             "core/post-featured-image": {
