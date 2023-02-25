@@ -42,3 +42,20 @@ footer {
 footer > div {
   margin-bottom: 0 !important;
 }
+
+
+/**
+ * 3 Alternative block gap control
+ *
+ * Classes for removing excessive child elements' margins.
+ */
+
+.kide-first-child-no-top-margin > :first-child {
+  margin-top: 0;
+  margin-block-start: 0;
+}
+
+.kide-last-child-no-bottom-margin > :last-child {
+  margin-bottom: 0;
+  margin-block-end: 0;
+}
