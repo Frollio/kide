@@ -31,3 +31,14 @@
     flex-direction: row;
   }
 }
+
+
+/**
+ * Footer columns
+ *
+ * Footer container
+ */
+
+.kide-footer-columns {
+  gap: var(--wp--preset--spacing--40);
+}
