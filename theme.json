@@ -461,7 +461,7 @@
             "core/paragraph": {
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--s)",
-                    "lineHeight": "2.5"
+                    "lineHeight": "2.0"
                 },
                 "spacing": {
                     "margin": {
