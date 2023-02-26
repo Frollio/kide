@@ -356,10 +356,10 @@
                 {
                     "name": "Fluid 2XL",
                     "slug": "2-xl",
-                    "size": "1.7rem",
+                    "size": "2.0rem",
                     "fluid": {
-                        "min": "1.7rem",
-                        "max": "2.4rem"
+                        "min": "2.0rem",
+                        "max": "2.9rem"
                     }
                 },
                 {
@@ -435,7 +435,9 @@
                     },
                     "padding": {
                         "top": "0",
-                        "bottom": "0"
+                        "right": "0",
+                        "bottom": "0",
+                        "left": "0"
                     }
                 }
             },
