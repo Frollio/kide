@@ -14,7 +14,6 @@
 
 .kide-latest-list-stack {
   display: grid;
-  gap: var(--wp--preset--spacing--20);
 }
 
 

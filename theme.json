@@ -318,7 +318,7 @@
                     }
                 },
                 {
-                    "name": "Static S",
+                    "name": "Fluid S",
                     "slug": "s",
                     "size": "1.0rem",
                     "fluid": {

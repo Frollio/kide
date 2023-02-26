@@ -17,7 +17,7 @@
     <h2 id="latest-posts-list-heading">Latest posts</h2>
     <!-- /wp:heading -->
 
-    <!-- wp:latest-posts {"displayPostDate":true,"className":"kide-latest-posts-list","fontSize":"m"} /-->
+    <!-- wp:latest-posts {"displayPostDate":true,"className":"kide-latest-posts-list","fontSize":"s"} /-->
 
   </div>
   <!-- /wp:group -->
