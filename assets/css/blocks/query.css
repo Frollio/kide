@@ -1,0 +1,14 @@
+
+/**
+ * 1 Template Query Loop
+ *
+ * Inherits the query from the template
+ **/
+
+.kide-search-results-post > li {
+  display: flex;
+  flex-direction: column;
+  padding: var(--wp--preset--spacing--20);
+  border: solid 5px var(--wp--preset--color--dark-4);
+  text-align: center;
+}
