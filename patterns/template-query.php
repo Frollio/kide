@@ -18,7 +18,7 @@
       <!-- wp:post-template {"className":"kide-search-results-post"} -->
       <!-- wp:post-title {"level":5,"isLink":true,"style":{"spacing":{"margin":{"bottom":"0","top":"0"}}}} /-->
 
-      <!-- wp:post-date /-->
+      <!-- wp:post-date {"style":{"spacing":{"margin":{"bottom":"0","top":"0"}}}} /-->
 
       <!-- wp:post-terms {"term":"category"} /-->
 
