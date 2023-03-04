@@ -1,11 +1,11 @@
 
 /**
- * 1 Template Query Loop
+ * 1 Query Loop
  *
- * Inherits the query from the template
+ * 
  **/
 
-.kide-search-results-post > li {
+.kide-post-template > li {
   display: flex;
   flex-direction: column;
   padding: var(--wp--preset--spacing--20);

@@ -15,7 +15,7 @@
     <!-- wp:query {"queryId":0,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"displayLayout":{"type":"flex","columns":3},"align":"wide","layout":{"type":"default"}} -->
     <div class="wp-block-query alignwide">
 
-      <!-- wp:post-template {"className":"kide-search-results-post"} -->
+      <!-- wp:post-template {"className":"kide-post-template"} -->
       <!-- wp:post-title {"level":5,"isLink":true,"style":{"spacing":{"margin":{"bottom":"0","top":"0"}}}} /-->
 
       <!-- wp:post-date {"style":{"spacing":{"margin":{"bottom":"0","top":"0"}}}} /-->
