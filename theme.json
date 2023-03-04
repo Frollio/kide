@@ -506,14 +506,6 @@
                         "bottom": "0"
                     }
                 }
-            },
-            "core/post-title": {
-                "spacing": {
-                    "margin": {
-                        "top": "var(--wp--preset--spacing--10)",
-                        "bottom": "var(--wp--preset--spacing--10)"
-                    }
-                }
             }
         },
         "color": {
