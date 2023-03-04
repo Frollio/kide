@@ -2,12 +2,16 @@
 /**
  * Wide image site intro columns
  *
- * The image has left and right spacing in narrow viewports.
+ * The image has top, right and bottom spacing in narrow viewports.
  */
+
+ .kide-site-intro-wide-column-2 > figure {
+  margin: 0;
+}
 
 @media only screen and (min-width: 1600px) {
   .kide-site-intro-wide-column-1 {
-    margin-right: var(--wp--preset--spacing--40) !important; /* Overrides smaller margin set in block markup */
+    padding-top: var(--wp--preset--spacing--20) !important; /* Overrides smaller spacing set in block markup */
   }
 }
 
@@ -15,7 +19,7 @@
 /**
  * Full image site intro column
  *
- * The image has no left and right spacing in narrow viewports.
+ * The image has no top, right or bottom spacing in narrow viewports.
  */
 
 .kide-site-intro-full-column-2 > figure {
@@ -24,8 +28,8 @@
 
 @media only screen and (min-width: 1600px) {
   .kide-site-intro-full-column-2 {
-    padding-top: var(--wp--preset--spacing--40) !important;
-    padding-right: var(--wp--preset--spacing--40) !important;
-    padding-bottom: var(--wp--preset--spacing--40) !important;
+    padding-top: var(--wp--preset--spacing--40) !important; /* Overrides smaller spacing set in block markup */
+    padding-right: var(--wp--preset--spacing--40) !important;/* Overrides smaller spacing set in block markup */
+    padding-bottom: var(--wp--preset--spacing--40) !important; /* Overrides smaller spacing set in block markup */
   }
 }

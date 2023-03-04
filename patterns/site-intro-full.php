@@ -1,8 +1,8 @@
 
 <?php
 /**
- * Title: Introduction of the site, full width image in narrow screens
- * Slug: kide/site-introduction-full
+ * Title: Introduction of the site, full-width image at narrow screens
+ * Slug: kide/site-intro-full
  * Categories: text, image
  */
 ?>
