@@ -305,7 +305,7 @@
                     "size": "0.7rem",
                     "fluid": {
                         "min": "0.7rem",
-                        "max": "1.0rem"
+                        "max": "0.8rem"
                     }
                 },
                 {
@@ -314,7 +314,7 @@
                     "size": "0.8rem",
                     "fluid": {
                         "min": "0.8rem",
-                        "max": "1.2rem"
+                        "max": "1.0rem"
                     }
                 },
                 {
@@ -323,7 +323,7 @@
                     "size": "1.0rem",
                     "fluid": {
                         "min": "1.0rem",
-                        "max": "1.4rem"
+                        "max": "1.2rem"
                     }
                 },
                 {
@@ -332,7 +332,7 @@
                     "size": "1.2rem",
                     "fluid": {
                         "min": "1.2rem",
-                        "max": "1.7rem"
+                        "max": "1.4rem"
                     }
                 },
                 {
@@ -341,7 +341,7 @@
                     "size": "1.4rem",
                     "fluid": {
                         "min": "1.4rem",
-                        "max": "2.0rem"
+                        "max": "1.7rem"
                     }
                 },
                 {
@@ -350,7 +350,7 @@
                     "size": "1.7rem",
                     "fluid": {
                         "min": "1.7rem",
-                        "max": "2.4rem"
+                        "max": "2.0rem"
                     }
                 },
                 {
@@ -359,7 +359,7 @@
                     "size": "2.0rem",
                     "fluid": {
                         "min": "2.0rem",
-                        "max": "2.9rem"
+                        "max": "2.4rem"
                     }
                 },
                 {
@@ -368,7 +368,7 @@
                     "size": "2.4rem",
                     "fluid": {
                         "min": "2.4rem",
-                        "max": "3.5rem"
+                        "max": "2.9rem"
                     }
                 },
                 {
@@ -377,7 +377,7 @@
                     "size": "2.9rem",
                     "fluid": {
                         "min": "2.9rem",
-                        "max": "4.2rem"
+                        "max": "3.5rem"
                     }
                 },
                 {
@@ -386,7 +386,7 @@
                     "size": "3.5rem",
                     "fluid": {
                         "min": "3.5rem",
-                        "max": "5.0rem"
+                        "max": "4.2rem"
                     }
                 },
                 {
@@ -395,7 +395,7 @@
                     "size": "4.2rem",
                     "fluid": {
                         "min": "4.2rem",
-                        "max": "6.0rem"
+                        "max": "5.0rem"
                     }
                 },
                 {
@@ -413,7 +413,7 @@
                     "size": "6rem",
                     "fluid": {
                         "min": "6.0rem",
-                        "max": "8.6rem"
+                        "max": "7.2rem"
                     }
                 }
             ]
