@@ -16,6 +16,7 @@
         "spacing": {
             "margin": true,
             "padding": true,
+            "units": [ "px", "em", "rem", "vh", "vw", "%" ],
             "spacingSizes": [
                 {
                     "size": "clamp(0.5rem, calc(0.5rem + ((1vw - 0.25rem) * 0.5)), 1rem)",
