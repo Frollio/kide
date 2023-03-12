@@ -7,8 +7,8 @@
  */
 ?>
 
-<!-- wp:group {"align":"full","backgroundColor":"dark-3","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-dark-3-background-color has-background"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"align":"full","backgroundColor":"dark-9","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-dark-9-background-color has-background"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"top":"0"}}}} -->
 <h1 class="has-text-align-center" id="welcome-to-this-page" style="margin-top:0">Welcome to this page</h1>
 <!-- /wp:heading -->

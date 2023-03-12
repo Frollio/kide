@@ -75,23 +75,63 @@
             "palette": [
                 {
                     "name": "Dark 1",
-                    "color": "#191919",
+                    "color": "#050505",
                     "slug": "dark-1"
                 },
                 {
                     "name": "Dark 2",
-                    "color": "#232323",
+                    "color": "#0a0a0a",
                     "slug": "dark-2"
                 },
                 {
                     "name": "Dark 3",
-                    "color": "#2d2d2d",
+                    "color": "#0f0f0f",
                     "slug": "dark-3"
                 },
                 {
                     "name": "Dark 4",
-                    "color": "#373737",
+                    "color": "#141414",
                     "slug": "dark-4"
+                },
+                {
+                    "name": "Dark 5",
+                    "color": "#191919",
+                    "slug": "dark-5"
+                },
+                {
+                    "name": "Dark 6",
+                    "color": "#1e1e1e",
+                    "slug": "dark-6"
+                },
+                {
+                    "name": "Dark 7",
+                    "color": "#232323",
+                    "slug": "dark-7"
+                },
+                {
+                    "name": "Dark 8",
+                    "color": "#282828",
+                    "slug": "dark-8"
+                },
+                {
+                    "name": "Dark 9",
+                    "color": "#2d2d2d",
+                    "slug": "dark-9"
+                },
+                {
+                    "name": "Dark 10",
+                    "color": "#323232",
+                    "slug": "dark-10"
+                },
+                {
+                    "name": "Dark 11",
+                    "color": "#373737",
+                    "slug": "dark-11"
+                },
+                {
+                    "name": "Dark 12",
+                    "color": "#3c3c3c",
+                    "slug": "dark-12"
                 },
                 {
                     "name": "Light 1",
@@ -510,7 +550,7 @@
             }
         },
         "color": {
-            "background": "var(--wp--preset--color--dark-2)",
+            "background": "var(--wp--preset--color--dark-7)",
             "text": "var(--wp--preset--color--light-2)"
         },
         "typography": {
