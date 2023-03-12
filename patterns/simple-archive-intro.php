@@ -1,8 +1,8 @@
 
 <?php
 /**
- * Title: Simple Category Page Introduction
- * Slug: kide/simple-category-intro
+ * Title: Simple category or tag page introduction
+ * Slug: kide/simple-archive-intro
  * Categories: text
  */
 ?>
@@ -15,7 +15,7 @@
     <!-- wp:query-title {"type":"archive","textAlign":"center","showPrefix":false,"style":{"spacing":{"margin":{"top":"0"}}}} /-->
 
     <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"0"}}}} -->
-    <p class="has-text-align-center" style="margin-bottom:0">Here you can tell what this category is about. If you wish, you can create custom category templates for different categories. Copy this template and rename it as category-name.html. For example, category-news.html, if the name of the category is news.
+    <p class="has-text-align-center" style="margin-bottom:0">Here you can tell what this category or tag is about. If you wish, you can create custom category templates for different categories and tags. Copy this template (not the pattern simple-archive-intro.php) and rename it as category-name.html or tag-name.html. For example, category-news.html or tag-news.html, if the name of the category or tag is news.
     </p>
     <!-- /wp:paragraph -->
 
