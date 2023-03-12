@@ -14,6 +14,7 @@
             "width": true
         },
         "spacing": {
+            "blockGap": true,
             "margin": true,
             "padding": true,
             "units": [ "px", "em", "rem", "vh", "vw", "%" ],
@@ -471,6 +472,7 @@
             },
             "core/group": {
                 "spacing": {
+                    "blockGap": "var(--wp--preset--spacing--20)",
                     "margin": {
                         "top": "0"
                     },
@@ -552,6 +554,9 @@
         "color": {
             "background": "var(--wp--preset--color--dark-7)",
             "text": "var(--wp--preset--color--light-2)"
+        },
+        "spacing": {
+            "blockGap": "0rem"
         },
         "typography": {
             "fontFamily": "var(--wp--preset--font-family--poppins)",
