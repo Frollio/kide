@@ -1,0 +1,16 @@
+
+/**
+ * 1 Two-column intro
+ *
+ * 
+ **/
+
+@media only screen and (max-width: 1000px) {
+  .kide-two-column-intro-media-text {
+    grid-template-columns: 100%!important;
+  }
+  .kide-two-column-intro-media-text > div {
+    grid-column: 1 !important;
+    grid-row: 2 !important;
+  }
+}

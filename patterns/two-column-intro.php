@@ -10,11 +10,10 @@
 <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
 
-
-  <!-- wp:media-text {"mediaId":1884,"mediaLink":"<?php echo esc_url( get_theme_file_uri( 'assets/images/kide-welcome-frame.svg' ) ); ?>","mediaType":"image"} -->
-  <div class="wp-block-media-text alignwide is-stacked-on-mobile">
+  <!-- wp:media-text {"mediaId":1884,"mediaLink":"<?php echo esc_url( get_theme_file_uri( 'assets/images/this-is-kide-landscape.svg' ) ); ?>","mediaType":"image","verticalAlignment":"center","className":"kide-two-column-intro-media-text"} -->
+  <div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center kide-two-column-intro-media-text">
   <figure class="wp-block-media-text__media">
-    <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/kide-welcome-frame.svg' ) ); ?>" alt="cover-varpuja" class="wp-image-1884 size-full"/>
+    <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/this-is-kide-landscape.svg' ) ); ?>" alt="cover-varpuja" class="wp-image-1884 size-full"/>
   </figure>
   <div class="wp-block-media-text__content">
 
@@ -23,7 +22,7 @@
     <!-- /wp:heading -->
 
     <!-- wp:paragraph {"placeholder":"Content…"} -->
-    <p>You can place your introduction text here.</p>
+    <p>You can place your introduction text here. That reminds me one story. Once upon a time there was a WordPress developer who realized they didn't know what they were doing. So they sold their computer and lived the rest of their life in agony.</p>
     <!-- /wp:paragraph --></div>
 
   </div>
