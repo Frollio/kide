@@ -32,7 +32,7 @@
 
       <!-- wp:image {"id":"introduction-site-image","sizeSlug":"large","linkDestination":"none"} -->
       <figure class="wp-block-image size-large">
-        <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/kide-welcome-frame.svg' ) ); ?>" alt="ADD YOUR IMAGE HERE"/>
+        <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/this-is-kide-landscape.svg' ) ); ?>" alt="ADD YOUR IMAGE HERE"/>
       </figure>
       <!-- /wp:image -->
 
