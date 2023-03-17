@@ -615,11 +615,6 @@
             "area": "header"
         },
         {
-            "name": "main",
-            "title": "Main",
-            "area": "uncategorized"
-        },
-        {
             "name": "footer",
             "title": "Footer",
             "area": "footer"
