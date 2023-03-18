@@ -17,12 +17,12 @@
   </figure>
   <div class="wp-block-media-text__content">
 
-    <!-- wp:heading {"level":1} -->
-    <h1 id="welcome-to-this-page">Welcome to this page</h1>
+    <!-- wp:heading {"textAlign":"center","level":1} -->
+    <h1 class="has-text-align-center" id="welcome-to-this-page">Welcome to this page</h1>
     <!-- /wp:heading -->
 
-    <!-- wp:paragraph {"placeholder":"Content…"} -->
-    <p>You can place your introduction text here. That reminds me one story. Once upon a time there was a WordPress developer who realized they didn't know what they were doing. So they sold their computer and lived the rest of their life in agony.</p>
+    <!-- wp:paragraph {"align":"center","placeholder":"Content…"} -->
+    <p class="has-text-align-center">You can place your introduction text here. That reminds me one story. Once upon a time there was a WordPress developer who realized they didn't know what they were doing. So they sold their computer and lived the rest of their life in agony.</p>
     <!-- /wp:paragraph --></div>
 
   </div>
