@@ -10,11 +10,11 @@
 <!-- wp:group {"tagName":"section","align":"full","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull">
   
-  <!-- wp:columns {"align":"wide","className":"kide-site-intro-full-columns"} -->
-  <div class="wp-block-columns alignwide kide-site-intro-full-columns">
+  <!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"},"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"className":"kide-site-intro-full-columns"} -->
+  <div class="wp-block-columns alignwide kide-site-intro-full-columns" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
   
-    <!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"className":"is-vertically-aligned-center kide-site-intro-full-column-1"} -->
-    <div class="wp-block-column is-vertically-aligned-center kide-site-intro-full-column-1" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
+    <!-- wp:column {"className":"is-vertically-aligned-center kide-site-intro-full-column-1"} -->
+    <div class="wp-block-column is-vertically-aligned-center kide-site-intro-full-column-1">
 
       <!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|20"}}},"className":"has-xxxxl-font-size"} -->
       <h1 class="has-text-align-center has-xxxxl-font-size" id="introduction-heading" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--20)">Much welcome to Kide theme</h1>

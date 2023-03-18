@@ -22,10 +22,6 @@
         <!-- wp:post-terms {"term":"post_tag"} /-->
       <!-- /wp:post-template -->
 
-      <!-- wp:spacer {"height":"var(--wp--preset--spacing--20)"} -->
-      <div style="height:var(--wp--preset--spacing--20)" aria-hidden="true" class="wp-block-spacer"></div>
-      <!-- /wp:spacer -->
-
       <!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"center"},"fontSize":"m"} -->
         <!-- wp:query-pagination-previous /-->
         <!-- wp:query-pagination-numbers /-->
