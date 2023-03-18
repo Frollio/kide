@@ -3,7 +3,7 @@
   /**
    * Title: A section with latest posts as a grid
    * slug: kide/latest-posts-grid
-   * Categories: text
+   * Categories: text, query
    * */
 ?>
 

@@ -1,9 +1,9 @@
 
 <?php
 /**
- * Title: Template Query Loop
+ * Title: Template query
  * slug: kide/template-query
- * Categories: text
+ * Categories: text, query
  */
 ?>
 

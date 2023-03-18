@@ -3,7 +3,7 @@
   /**
    * Title: A section with latest posts as a list with headings and dates
    * slug: kide/latest-posts-section-list
-   * Categories: text
+   * Categories: text, query
    * */
 ?>
 
