@@ -60,12 +60,3 @@ footer > div {
   margin-bottom: 0;
   margin-block-end: 0;
 }
-
-
-/**
- * 4 Showing and hiding
- */
-
-.kide-is-block {
-  display: block !important;
-}
