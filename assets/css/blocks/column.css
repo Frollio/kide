@@ -1,21 +1,17 @@
 
 /**
  * Wide image site intro columns
- *
- * The image has top, right and bottom spacing in narrow viewports.
  */
 
- .kide-site-intro-wide-column-2 > figure {
+/*.kide-site-intro-wide-column-2 > figure {
   margin: 0;
-}
+}*/
 
 
 /**
  * Full image site intro column
- *
- * The image has no top, right or bottom spacing in narrow viewports.
  */
 
-.kide-site-intro-full-column-2 > figure {
+/*.kide-site-intro-full-column-2 > figure {
   margin: 0;
-}
+}*/

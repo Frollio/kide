@@ -503,12 +503,6 @@
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--s)",
                     "lineHeight": "2.0"
-                },
-                "spacing": {
-                    "margin": {
-                        "top": "var(--wp--preset--spacing--20)",
-                        "bottom": "var(--wp--preset--spacing--20)"
-                    }
                 }
             },
             "core/post-author": {
