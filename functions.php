@@ -13,10 +13,10 @@ add_action( 'after_setup_theme', 'kide_setup' );
 
 
 /**
- * Global styles and scripts
+ * Global styles
  */
 
- if ( ! function_exists( 'kide_styles' ) ) :
+if ( ! function_exists( 'kide_styles' ) ) :
   function kide_styles() {
     wp_enqueue_style( 'style', get_stylesheet_uri() );
     wp_enqueue_style( 'kide', get_template_directory_uri() . 
@@ -24,6 +24,18 @@ add_action( 'after_setup_theme', 'kide_setup' );
   }
 endif;
 add_action( 'wp_enqueue_scripts', 'kide_styles' );
+
+
+/**
+ * Global scripts
+ */
+
+if ( ! function_exists( 'kide_scripts' ) ) :
+  function kide_scripts() {
+    wp_enqueue_script( 'kide-script', get_template_directory_uri() . '/assets/js/kide.js', array(), 0.1, true );
+  }
+endif;
+add_action( 'wp_enqueue_scripts', "kide_scripts" );
 
 
 /**
