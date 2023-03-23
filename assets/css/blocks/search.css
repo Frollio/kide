@@ -8,7 +8,7 @@
 }
 
 .kide-is-block {
-  display: block
+  display: block !important;
 }
 
 
