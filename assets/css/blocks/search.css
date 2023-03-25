@@ -1,4 +1,18 @@
 
+
+/**
+ * Search toggle button
+ */
+
+#kide-search-toggle > img:hover {
+  content: url(../../images/magnifying-glass-purple.svg);
+}
+
+#kide-search-toggle > img:active {
+  content: url(../../images/magnifying-glass-white.svg);
+}
+
+
 /**
  * Search bar
  */
