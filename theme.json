@@ -2,46 +2,173 @@
     "$schema": "https://schemas.wp.org/trunk/theme.json",
     "version": 2,
     "settings": {
+        "useRootPaddingAwareAlignments": true,
+        "layout": {
+            "contentSize": "1200px",
+            "wideSize": "2000px"
+        },
+        "border": {
+            "radius": true,
+            "color": true,
+            "style": true,
+            "width": true
+        },
+        "spacing": {
+            "blockGap": true,
+            "margin": true,
+            "padding": true,
+            "units": [ "px", "em", "rem", "vh", "vw", "%" ],
+            "spacingSizes": [
+                {
+                    "size": "clamp(0.5rem, calc(0.5rem + ((1vw - 0.25rem) * 0.5)), 1rem)",
+                    "slug": "10",
+                    "name": "Fluid 10"
+                },
+                {
+                    "size": "clamp(1rem, calc(1rem + ((1vw - 0.25rem) * 1)), 2rem)",
+                    "slug": "20",
+                    "name": "Fluid 20"
+                },
+                {
+                    "size": "clamp(1.5rem, calc(1.5rem + ((1vw - 0.25rem) * 1.5)), 3rem)",
+                    "slug": "30",
+                    "name": "Fluid 30"
+                },
+                {
+                    "size": "clamp(2rem, calc(2rem + ((1vw - 0.25rem) * 2)), 4rem)",
+                    "slug": "40",
+                    "name": "Fluid 40"
+                },
+                {
+                    "size": "clamp(2.5rem, calc(2.5rem + ((1vw - 0.25rem) * 2.5)), 5rem)",
+                    "slug": "50",
+                    "name": "Fluid 50"
+                },
+                {
+                    "size": "clamp(3rem, calc(3rem + ((1vw - 0.25rem) * 3)), 6rem)",
+                    "slug": "60",
+                    "name": "Fluid 60"
+                },
+                {
+                    "size": "clamp(3.5rem, calc(3.5rem + ((1vw - 0.25rem) * 3.5)), 7rem)",
+                    "slug": "70",
+                    "name": "Fluid 70"
+                },
+                {
+                    "size": "clamp(4rem, calc(4rem + ((1vw - 0.25rem) * 4)), 8rem)",
+                    "slug": "80",
+                    "name": "Fluid 80"
+                },
+                {
+                    "size": "clamp(4.5rem, calc(4.5rem + ((1vw - 0.25rem) * 4.5)), 9rem)",
+                    "slug": "90",
+                    "name": "Fluid 90"
+                },
+                {
+                    "size": "clamp(5rem, calc(5rem + ((1vw - 0.25rem) * 5)), 10rem)",
+                    "slug": "100",
+                    "name": "Fluid 100"
+                }
+            ]
+        },
         "color": {
+            "link": true,
             "palette": [
                 {
-                    "name": "Background 1",
-                    "color": "#000000",
-                    "slug": "background1"
+                    "name": "Dark 1",
+                    "color": "#050505",
+                    "slug": "dark-1"
                 },
                 {
-                    "name": "Background 2",
-                    "color": "#1a1a1a",
-                    "slug": "background2"
+                    "name": "Dark 2",
+                    "color": "#0a0a0a",
+                    "slug": "dark-2"
                 },
                 {
-                    "name": "Background 3",
-                    "color": "#333333",
-                    "slug": "background3"
+                    "name": "Dark 3",
+                    "color": "#0f0f0f",
+                    "slug": "dark-3"
                 },
                 {
-                    "name": "Font 1",
-                    "color": "#cccccc",
-                    "slug": "font1"
+                    "name": "Dark 4",
+                    "color": "#141414",
+                    "slug": "dark-4"
                 },
                 {
-                    "name": "Font 2",
+                    "name": "Dark 5",
+                    "color": "#191919",
+                    "slug": "dark-5"
+                },
+                {
+                    "name": "Dark 6",
+                    "color": "#1e1e1e",
+                    "slug": "dark-6"
+                },
+                {
+                    "name": "Dark 7",
+                    "color": "#232323",
+                    "slug": "dark-7"
+                },
+                {
+                    "name": "Dark 8",
+                    "color": "#282828",
+                    "slug": "dark-8"
+                },
+                {
+                    "name": "Dark 9",
+                    "color": "#2d2d2d",
+                    "slug": "dark-9"
+                },
+                {
+                    "name": "Dark 10",
+                    "color": "#323232",
+                    "slug": "dark-10"
+                },
+                {
+                    "name": "Dark 11",
+                    "color": "#373737",
+                    "slug": "dark-11"
+                },
+                {
+                    "name": "Dark 12",
+                    "color": "#3c3c3c",
+                    "slug": "dark-12"
+                },
+                {
+                    "name": "Light 1",
                     "color": "#e6e6e6",
-                    "slug": "font2"
+                    "slug": "light-1"
                 },
                 {
-                    "name": "Font 3",
-                    "color": "#ffffff",
-                    "slug": "font3"
+                    "name": "Light 2",
+                    "color": "#e1e1e1",
+                    "slug": "light-2"
                 },
                 {
-                    "name": "Colour",
-                    "color": "#cc00ff",
-                    "slug": "colour"
+                    "name": "Light 3",
+                    "color": "#dcdcdc",
+                    "slug": "light-3"
+                },
+                {
+                    "name": "Light 4",
+                    "color": "#d7d7d7",
+                    "slug": "light-4"
+                },
+                {
+                    "name": "Kide Violet",
+                    "color": "#ab83c9",
+                    "slug": "kide-violet"
+                },
+                {
+                    "name": "Kide Purple",
+                    "color": "#d188d1",
+                    "slug": "kide-purple"
                 }
             ]
         },
         "typography": {
+            "fluid": true,
+            "lineHeight": true,
             "fontFamilies": [
                 {
                     "fontFace": [
@@ -212,19 +339,267 @@
                     "name": "Poppins",
                     "slug": "poppins"
                 }
+            ],
+            "fontSizes": [
+                {
+                    "name": "Fluid 2XS",
+                    "slug": "2-xs",
+                    "size": "0.7rem",
+                    "fluid": {
+                        "min": "0.7rem",
+                        "max": "0.8rem"
+                    }
+                },
+                {
+                    "name": "Fluid XS",
+                    "slug": "xs",
+                    "size": "0.8rem",
+                    "fluid": {
+                        "min": "0.8rem",
+                        "max": "1.0rem"
+                    }
+                },
+                {
+                    "name": "Fluid S",
+                    "slug": "s",
+                    "size": "1.0rem",
+                    "fluid": {
+                        "min": "1.0rem",
+                        "max": "1.2rem"
+                    }
+                },
+                {
+                    "name": "Fluid M",
+                    "slug": "m",
+                    "size": "1.2rem",
+                    "fluid": {
+                        "min": "1.2rem",
+                        "max": "1.4rem"
+                    }
+                },
+                {
+                    "name": "Fluid L",
+                    "slug": "l",
+                    "size": "1.4rem",
+                    "fluid": {
+                        "min": "1.4rem",
+                        "max": "1.7rem"
+                    }
+                },
+                {
+                    "name": "Fluid XL",
+                    "slug": "xl",
+                    "size": "1.7rem",
+                    "fluid": {
+                        "min": "1.7rem",
+                        "max": "2.0rem"
+                    }
+                },
+                {
+                    "name": "Fluid 2XL",
+                    "slug": "2-xl",
+                    "size": "2.0rem",
+                    "fluid": {
+                        "min": "2.0rem",
+                        "max": "2.4rem"
+                    }
+                },
+                {
+                    "name": "Fluid 3XL",
+                    "slug": "3-xl",
+                    "size": "2.4rem",
+                    "fluid": {
+                        "min": "2.4rem",
+                        "max": "2.9rem"
+                    }
+                },
+                {
+                    "name": "Fluid 4XL",
+                    "slug": "4-xl",
+                    "size": "2.9rem",
+                    "fluid": {
+                        "min": "2.9rem",
+                        "max": "3.5rem"
+                    }
+                },
+                {
+                    "name": "Fluid 5XL",
+                    "slug": "5-xl",
+                    "size": "3.5rem",
+                    "fluid": {
+                        "min": "3.5rem",
+                        "max": "4.2rem"
+                    }
+                },
+                {
+                    "name": "Fluid 6XL",
+                    "slug": "6-xl",
+                    "size": "4.2rem",
+                    "fluid": {
+                        "min": "4.2rem",
+                        "max": "5.0rem"
+                    }
+                },
+                {
+                    "name": "Fluid 7XL",
+                    "slug": "7-xl",
+                    "size": "5.0rem",
+                    "fluid": {
+                        "min": "5.0rem",
+                        "max": "6.0rem"
+                    }
+                },
+                {
+                    "name": "Fluid 8XL",
+                    "slug": "8-xl",
+                    "size": "6rem",
+                    "fluid": {
+                        "min": "6.0rem",
+                        "max": "7.2rem"
+                    }
+                }
             ]
         }
     },
     "styles": {
+        "blocks": {
+            "core/columns": {
+                "spacing": {
+                    "margin": {
+                        "bottom": "0"
+                    }
+                }
+            },
+            "core/group": {
+                "spacing": {
+                    "padding": {
+                        "top": "0",
+                        "right": "0",
+                        "bottom": "0",
+                        "left": "0"
+                    }
+                }
+            },
+            "core/heading": {
+                "color": {
+                    "text": "var(--wp--preset--color--kide-violet)"
+                },
+                "spacing": {
+                    "margin": {
+                        "top": "var(--wp--preset--spacing--30)",
+                        "bottom": "var(--wp--preset--spacing--20)"
+                    }
+                }
+            },
+            "core/image": {
+                "spacing": {
+                    "margin": {
+                        "top": "var(--wp--preset--spacing--20)",
+                        "bottom": "var(--wp--preset--spacing--20)"
+                    }
+                }
+            },
+            "core/paragraph": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--s)",
+                    "lineHeight": "2.0"
+                }
+            },
+            "core/post-author": {
+                "color": {
+                    "text": "var(--wp--preset--color--kide-violet)"
+                }
+            },
+            "core/post-date": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--s)"
+                },
+                "spacing": {
+                    "margin": {
+                        "top": "var(--wp--preset--spacing--10)",
+                        "bottom": "var(--wp--preset--spacing--10)"
+                    }
+                }
+            },
+            "core/post-featured-image": {
+                "spacing": {
+                    "margin": {
+                        "top": "var(--wp--preset--spacing--20)",
+                        "bottom": "var(--wp--preset--spacing--40)"
+                    }
+                }
+            },
+            "core/post-terms": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--s)"
+                },
+                "spacing": {
+                    "margin": {
+                        "top": "0",
+                        "bottom": "0"
+                    }
+                }
+            }
+        },
         "color": {
-            "background": "var(--wp--preset--color--background-2)",
-            "text": "var(--wp--preset--color--font-2)"
+            "background": "var(--wp--preset--color--dark-7)",
+            "text": "var(--wp--preset--color--light-2)"
+        },
+        "spacing": {
+            "blockGap": "var(--wp--preset--spacing--20)"
         },
         "typography": {
             "fontFamily": "var(--wp--preset--font-family--poppins)",
             "fontSize": "16px",
             "fontStyle": "normal",
             "fontWeight": "400"
+        },
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--4-xl)",
+                    "lineHeight": "1.3"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--3-xl)",
+                    "lineHeight": "1.4"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--2-xl)"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--xl)"
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--l)"
+                }
+            },
+            "h6": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--m)"
+                }
+            },
+            "link": {
+                "color": {
+                    "text": "var(--wp--preset--color--kide-purple)"
+                },
+                "typography": {
+                    "textDecoration": "none"
+                },
+                ":hover": {
+                    "typography": {
+                        "textDecoration": "underline"
+                    }
+                }
+            }
         }
     },
     "templateParts": [
@@ -232,11 +607,6 @@
             "name": "header",
             "title": "Header",
             "area": "header"
-        },
-        {
-            "name": "main",
-            "title": "Main",
-            "area": "uncategorized"
         },
         {
             "name": "footer",

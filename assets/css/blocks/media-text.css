@@ -1,0 +1,32 @@
+
+/**
+ * 1 Two-column intro
+ *
+ * 
+ **/
+
+.kide-two-column-intro-media-text {
+  gap: var(--wp--preset--spacing--40)
+}
+
+.kide-two-column-intro-media-text > div {
+  padding: 0 !important;
+}
+
+.kide-two-column-intro-media-text > div > :first-child {
+  margin-top: 0;
+}
+
+.kide-two-column-intro-media-text > div > :last-child {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1199px) {
+  .kide-two-column-intro-media-text {
+    grid-template-columns: 100%!important;
+  }
+  .kide-two-column-intro-media-text > div {
+    grid-column: 1 !important;
+    grid-row: 2 !important;
+  }
+}

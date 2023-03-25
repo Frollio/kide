@@ -1,10 +1,28 @@
 
- /*
-  * For keeping footer at the bottom of the viewport
-  * in pages with little of content
-  */
+/**
+ * 1 General fixes
+ *
+ * These styles fix common problems. They should be moved to the theme.json, if possible.
+ */
 
-html, body, body > div {
+* {
+  box-sizing: border-box;
+}
+
+a span:hover {
+  text-decoration: underline;
+}
+
+
+/**
+ * 2 Footer layout
+ *
+ * For keeping footer at the bottom of the viewport in pages with little of content.
+ */
+
+html,
+body,
+body > div {
   height: 100%;
 }
 
@@ -19,8 +37,26 @@ main {
 
 footer {
   flex-shrink: 0;
+  margin-top: 0 !important /* Disabling blockGap */
 }
 
 footer > div {
   margin-bottom: 0 !important;
+}
+
+
+/**
+ * 3 Alternative block gap control
+ *
+ * Classes for removing excessive child elements' margins.
+ */
+
+.kide-first-child-no-top-margin > :first-child {
+  margin-top: 0;
+  margin-block-start: 0;
+}
+
+.kide-last-child-no-bottom-margin > :last-child {
+  margin-bottom: 0;
+  margin-block-end: 0;
 }

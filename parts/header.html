@@ -1,23 +1,14 @@
-<!-- wp:columns {"verticalAlignment":null,"isStackedOnMobile":false,"backgroundColor":"background1","textColor":"font1"} -->
-<div class="wp-block-columns is-not-stacked-on-mobile has-font-1-color has-background-1-background-color has-text-color has-background">
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","right":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|20"}}},"backgroundColor":"dark-5","textColor":"light-4","className":"kide-header-container","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group kide-header-container has-light-4-color has-dark-5-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)">
+
+  <!-- wp:site-logo {"shouldSyncIcon":true} /-->
+
+  <!-- wp:navigation {"ref":2037,"textColor":"light-4","backgroundColor":"dark-5","icon":"menu","overlayBackgroundColor":"dark-5","overlayTextColor":"light-4","className":"kide-header-navigation","layout":{"type":"flex","orientation":"horizontal","flexWrap":"wrap"}} /-->
   
-  <!-- wp:column {"verticalAlignment":"center","width":"25%","className":"kide-header-column"} -->
-  <div class="wp-block-column is-vertically-aligned-center kide-header-column" style="flex-basis:25%">
-    <!-- wp:site-logo {"shouldSyncIcon":true} /-->
-  </div>
-  <!-- /wp:column -->
-  
-  <!-- wp:column {"verticalAlignment":"center","width":"50%","className":"kide-header-column"} -->
-  <div class="wp-block-column is-vertically-aligned-center kide-header-column" style="flex-basis:50%">
-    <!-- wp:navigation {"ref":2037,"icon":"menu","overlayBackgroundColor":"background1","overlayTextColor":"font1","className":"kide-header-navigation","layout":{"type":"flex","justifyContent":"left","orientation":"horizontal","flexWrap":"wrap"}} /-->
-  </div>
-  <!-- /wp:column -->
-  
-  <!-- wp:column {"verticalAlignment":"center","width":"25%","className":"kide-header-column"} -->
-  <div class="wp-block-column is-vertically-aligned-center kide-header-column" style="flex-basis:25%">
-    <!-- wp:search {"showLabel":false,"placeholder":"Etsi...","buttonText":"Etsi","buttonPosition":"no-button","buttonUseIcon":true,"className":"kide-header-search"} /-->
-  </div>
-  <!-- /wp:column -->
+  <!-- wp:pattern {"slug":"kide/search-toggle"} /-->
 
 </div>
-<!-- /wp:columns -->
+<!-- /wp:group -->
+
+<!-- wp:pattern {"slug":"kide/search-bar"} /-->

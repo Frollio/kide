@@ -1,0 +1,26 @@
+
+/**
+ * 1 Header container
+ */
+
+.kide-header-container {
+  justify-content: space-evenly;
+}
+
+
+/**
+ * 2 Latest posts list section
+ */
+
+.kide-latest-list-stack {
+  display: grid;
+}
+
+
+/**
+ * 3 404
+ **/
+
+.kide-404-outer-container {
+  height: 100%;
+}

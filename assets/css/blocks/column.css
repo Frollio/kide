@@ -1,4 +1,17 @@
 
-.kide-header-column {
-  text-align: center;
-}
+/**
+ * Wide image site intro columns
+ */
+
+/*.kide-site-intro-wide-column-2 > figure {
+  margin: 0;
+}*/
+
+
+/**
+ * Full image site intro column
+ */
+
+/*.kide-site-intro-full-column-2 > figure {
+  margin: 0;
+}*/
