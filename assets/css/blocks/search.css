@@ -31,8 +31,9 @@
  */
 
 .kide-header-search > div > input {
-  background-color: var(--wp--preset--color--dark-8);
+  background-color: var(--wp--preset--color--dark-10);
   color: var(--wp--preset--color--light-2);
   border: none;
   padding: 15px;
+  outline: 0;
 }
