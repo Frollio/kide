@@ -16,12 +16,12 @@
     <!-- wp:column {"className":"is-vertically-aligned-center kide-site-intro-wide-column-1"} -->
     <div class="wp-block-column is-vertically-aligned-center kide-site-intro-wide-column-1">
 
-      <!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|20"}}},"className":"has-xxxxl-font-size"} -->
-      <h1 class="has-text-align-center has-xxxxl-font-size" id="introduction-heading" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--20)">Much welcome to Kide theme</h1>
+      <!-- wp:heading {"textAlign":"left","level":1,"style":{"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|20"}}},"className":"has-xxxxl-font-size"} -->
+      <h1 class="has-text-align-left has-xxxxl-font-size" id="introduction-heading" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--20)">Much welcome to Kide theme</h1>
       <!-- /wp:heading -->
 
-      <!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"2"},"spacing":{"margin":{"bottom":"0","top":"var:preset|spacing|20"}}},"fontSize":"m"} -->
-      <p class="has-text-align-center has-m-font-size" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:0;line-height:2">You can put your introduction text here for the end-user to understand what this page is about. More text makes this section more high. Widths of these columns are preset but heights not.</p>
+      <!-- wp:paragraph {"align":"left","style":{"typography":{"lineHeight":"2"},"spacing":{"margin":{"bottom":"0","top":"var:preset|spacing|20"}}},"fontSize":"m"} -->
+      <p class="has-text-align-left has-m-font-size" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:0;line-height:2">You can put your introduction text here for the end-user to understand what this page is about. More text makes this section more high. Widths of these columns are preset but heights not.</p>
       <!-- /wp:paragraph -->
       
     </div>
