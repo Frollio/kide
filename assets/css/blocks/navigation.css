@@ -1,6 +1,6 @@
 
 /**
- * 1 Header – Narrow screen navigation
+ * 1 Header – Narrow screen navigation menu
  */
 
  /* Menu container */
@@ -28,12 +28,12 @@
 }
 
 /* Third-level list */
-.kide-header-navigation > div > div > div > div > ul > li > ul > li > ul {
+.kide-header-navigation > div > div > div > div > ul > li > ul > li ul {
   padding: 0 !important;
 }
 
 /* Third-level list items */
-.kide-header-navigation > div > div > div > div > ul > li > ul > li > ul > li {
+.kide-header-navigation > div > div > div > div > ul > li > ul > li > ul li {
   font-size: var(--wp--preset--font-size--s);
 }
 
@@ -62,25 +62,46 @@
 
 
 /**
- * 2 Header – Wide screen navigation
+ * 2 Header – Wide screen navigation menu
  */
 
 @media only screen and (min-width: 1000px) {
+
+  /* Navigation menu */
   .kide-header-navigation {
-    font-size: 1.2rem;
+    /*font-size: var(--wp--preset--font-size--m) !important;*/
     line-height: 2.0rem;
   }
+
+  /* Navigation menu links */
   .kide-header-navigation a {
     padding-right: 0;
   }
+
+  /* First-level list */
   .kide-header-navigation > div > div > div > div > ul {
-    gap: 0;
+    gap: 1rem;
     justify-content: center;
   }
+
+  /* First-level list items and below */
   .kide-header-navigation > div > div > div > div > ul li {
-    font-size: 1.2rem;
+    font-size: var(--wp--preset--font-size--s);
+    gap: 0;
   }
+
+  /* Second-level list */
+  .kide-header-navigation > div > div > div > div > ul > li > ul {
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+    border-left: 0 !important;
+  }
+
+  /* Second-level list items and below */
   .kide-header-navigation > div > div > div > div > ul > li > ul li {
     padding-top: 0;
+    font-size: var(--wp--preset--font-size--s);
+    gap: 0;
   }
+
 }
