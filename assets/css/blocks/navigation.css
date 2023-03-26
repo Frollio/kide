@@ -6,6 +6,7 @@
  /* Menu container */
 .kide-header-navigation > div > div > div > div {
   align-items: center !important;
+  padding-top: var(--wp--custom--kide-menu-button--padding);
 }
 
 /* First-level list items */
@@ -27,24 +28,31 @@
   gap: var(--wp--preset--spacing--10);
 }
 
-/* Third-level list */
+/* Third-level list and below */
 .kide-header-navigation > div > div > div > div > ul > li > ul > li ul {
   padding: 0 !important;
 }
 
-/* Third-level list items */
+/* Third-level list items and below */
 .kide-header-navigation > div > div > div > div > ul > li > ul > li > ul li {
   font-size: var(--wp--preset--font-size--s);
 }
 
+/* Open menu button graphics */
 .kide-header-navigation > button > svg {
   width: auto;
-  height: 70px;
+  height: var(--wp--custom--kide-header-item--height);
 }
 
+/* Close menu button */
+.kide-header-navigation > div > div > div > button {
+  padding: var(--wp--preset--spacing--20);
+}
+
+/* Close menu button graphics */
 .kide-header-navigation > div > div > div > button > svg {
   width: auto;
-  height: 70px;
+  height: var(--wp--custom--kide-header-item--height);
 }
 
 @media only screen and (max-width: 999px) {
