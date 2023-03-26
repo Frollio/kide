@@ -3,10 +3,11 @@
  * 1 Header – Narrow screen navigation menu
  */
 
- /* Menu container */
-.kide-header-navigation > div > div > div > div {
+/* Menu container */
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content
+{
   align-items: center !important;
-  padding-top: var(--wp--custom--kide-menu-button--padding);
+  padding-top: var(--wp--custom--kide-menu-button--padding) !important;
 }
 
 /* First-level list items */
@@ -85,7 +86,7 @@
   .kide-header-navigation a {
     padding-right: 0;
   }
-
+  
   /* First-level list */
   .kide-header-navigation > div > div > div > div > ul {
     gap: 1rem;
