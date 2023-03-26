@@ -1,0 +1,9 @@
+
+/**
+ * Site logo
+ **/
+
+.kide-header-item-height > a > img {
+  width: auto !important;
+  max-height: var(--wp--custom--kide-header-item--height);
+}

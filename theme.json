@@ -459,6 +459,11 @@
                     }
                 }
             ]
+        },
+        "custom": {
+            "kide-header-item": {
+                "height":"clamp(2rem, calc(2rem + ((1vw - 0.25rem) * 2)), 4rem)"
+            }
         }
     },
     "styles": {
