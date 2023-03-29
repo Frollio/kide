@@ -7,8 +7,8 @@
  */
 ?>
 
-<!-- wp:image {"sizeSlug":"large","className":"kide-search-button","kide-search-toggle-height"} -->
+<!-- wp:image {"className":"size-large is-resized kide-search-button kide-search-toggle-height"} -->
 <figure class="wp-block-image size-large is-resized kide-search-button kide-search-toggle-height" id="kide-search-toggle">
-  <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/magnifying-glass-white.svg' ) )?>" alt="Magnifying glass" width="40" height="40"/>
+  <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/magnifying-glass-white.svg' ) )?>" alt="Magnifying glass"/>
 </figure>
 <!-- /wp:image -->
