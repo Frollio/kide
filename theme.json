@@ -462,7 +462,7 @@
         },
         "custom": {
             "kide-header-item": {
-                "height":"clamp(2rem, calc(2rem + ((1vw - 0.25rem) * 2)), 2.5rem)"
+                "height":"clamp(1.5rem, calc(1.5rem + ((1vw - 0.25rem) * 1.5)), 2rem)"
             },
             "kide-menu-button": {
                 "padding":"clamp(4rem, calc(4rem + ((1vw - 0.25rem) * 4)), 8rem)"
