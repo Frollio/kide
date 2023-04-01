@@ -10,11 +10,11 @@
 <!-- wp:group {"tagName":"section","align":"full","backgroundColor":"dark-8","layout":{"type":"constrained","justifyContent":"center"}} -->
 <section class="wp-block-group alignfull has-dark-8-background-color has-background">
 
-  <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|30"}},"className":"kide-latest-list-stack","layout":{"type":"constrained","justifyContent":"left"}} -->
-  <div class="wp-block-group kide-latest-list-stack" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
+  <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|30"}},"className":"kide-latest-list-stack","layout":{"type":"constrained","justifyContent":"left"}} -->
+  <div class="wp-block-group alignwide kide-latest-list-stack" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
 
-    <!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"left"}} -->
-    <div class="wp-block-group">
+    <!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"left"}} -->
+    <div class="wp-block-group alignwide">
   
       <!-- wp:heading -->
       <h2 class="wp-block-heading" id="latest-posts-list-heading">Latest posts</h2>
@@ -33,8 +33,8 @@
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:query {"queryId":0,"query":{"perPage":5,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"displayLayout":{"type":"flex","columns":2},"className":"kide-query-loop","layout":{"type":"default"}} -->
-    <div class="wp-block-query kide-query-loop">
+    <!-- wp:query {"queryId":0,"query":{"perPage":5,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"displayLayout":{"type":"flex","columns":2},"align":"wide","className":"kide-query-loop","layout":{"type":"default"}} -->
+    <div class="wp-block-query alignwide kide-query-loop">
     
       <!-- wp:post-template {"className":"kide-post-template"} -->
 
