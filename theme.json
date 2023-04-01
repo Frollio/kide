@@ -502,7 +502,7 @@
             "core/paragraph": {
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--s)",
-                    "lineHeight": "2.0"
+                    "lineHeight": "1.75"
                 }
             },
             "core/post-author": {
