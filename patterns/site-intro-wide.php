@@ -21,7 +21,7 @@
       <!-- /wp:heading -->
 
       <!-- wp:paragraph {"align":"left","style":{"spacing":{"margin":{"bottom":"0","top":"var:preset|spacing|20"}}},"fontSize":"m"} -->
-      <p class="has-text-align-left has-m-font-size" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:0;line-height:2">You can put your introduction text here for the end-user to understand what this page is about. More text makes this section more high. Widths of these columns are preset but heights not.</p>
+      <p class="has-text-align-left has-m-font-size" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:0">You can put your introduction text here for the end-user to understand what this page is about. More text makes this section more high. Widths of these columns are preset but heights not.</p>
       <!-- /wp:paragraph -->
       
     </div>
