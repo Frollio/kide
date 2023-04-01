@@ -527,6 +527,21 @@
             }
         },
         "elements": {
+            "button": {
+                "color": {
+                    "background": "var(--wp--preset--color--dark-10)"
+                },
+                ":hover": {
+                    "color": {
+                        "background": "var(--wp--preset--color--kide-purple)"
+                    }
+                },
+                ":active": {
+                    "color": {
+                        "background": "var(--wp--preset--color--dark-10)"
+                    }
+                }
+            },
             "h1": {
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--4-xl)",
