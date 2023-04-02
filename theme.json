@@ -499,6 +499,12 @@
                     "text": "var(--wp--preset--color--kide-violet)"
                 }
             },
+            "core/list": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--s)",
+                    "lineHeight": "1.75"
+                }
+            },
             "core/paragraph": {
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--s)",
