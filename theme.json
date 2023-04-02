@@ -484,6 +484,14 @@
             "fontWeight": "400"
         },
         "blocks": {
+            "core/code": {
+                "border": {
+                    "width": "0"
+                },
+                "color": {
+                    "background": "var(--wp--preset--color--dark-10)"
+                }
+            },
             "core/group": {
                 "spacing": {
                     "padding": {
