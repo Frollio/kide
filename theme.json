@@ -563,7 +563,7 @@
         "elements": {
             "button": {
                 "color": {
-                    "background": "var(--wp--preset--color--dark-10)"
+                    "background": "var(--wp--preset--color--dark-12)"
                 },
                 ":hover": {
                     "color": {
