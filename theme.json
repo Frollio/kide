@@ -535,6 +535,21 @@
                 "color": {
                     "text": "var(--wp--preset--color--kide-violet)"
                 }
+            },
+            "core/quote": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--m)"
+                },
+                "elements": {
+                    "cite": {
+                        "typography": {
+                            "fontSize": "var(--wp--preset--font-size--s)"
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--kide-violet)"
+                        }
+                    }
+                }
             }
         },
         "elements": {
