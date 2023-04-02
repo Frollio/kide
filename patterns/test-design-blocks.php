@@ -16,11 +16,17 @@
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button /-->
 
-<!-- wp:button /-->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Button</a></div>
+<!-- /wp:button -->
 
-<!-- wp:button /-->
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Button</a></div>
+<!-- /wp:button -->
 
-<!-- wp:button /--></div>
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Button</a></div>
+<!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
 <!-- wp:columns -->
