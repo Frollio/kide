@@ -524,6 +524,11 @@
                 "color": {
                     "text": "var(--wp--preset--color--kide-violet)"
                 }
+            },
+            "core/query-title": {
+                "color": {
+                    "text": "var(--wp--preset--color--kide-violet)"
+                }
             }
         },
         "elements": {
