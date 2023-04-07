@@ -566,6 +566,11 @@
                         }
                     }
                 }
+            },
+            "core/table": {
+                "color": {
+                    "background": "var(--wp--preset--color--dark-7)"
+                }
             }
         },
         "elements": {
