@@ -500,6 +500,19 @@
                     "background": "var(--wp--preset--color--dark-10)"
                 }
             },
+            "core/cover":{
+                "spacing": {
+                    "padding": {
+                        "top": "var(--wp--preset--spacing--40)",
+                        "right": "var(--wp--preset--spacing--40)",
+                        "bottom": "var(--wp--preset--spacing--40)",
+                        "left": "var(--wp--preset--spacing--40)"
+                    }
+                },
+                "dimensions": {
+                    "minHeight": "0"
+                }
+            },
             "core/group": {
                 "spacing": {
                     "padding": {
