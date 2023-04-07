@@ -486,7 +486,6 @@
         "blocks": {
             "core/calendar": {
                 "color": {
-                    "background": "var(--wp--preset--color--dark-8)",
                     "text": "var(--wp--preset--color--light-2)"
                 },
                 "typography": {
