@@ -484,6 +484,15 @@
             "fontWeight": "400"
         },
         "blocks": {
+            "core/calendar": {
+                "color": {
+                    "background": "var(--wp--preset--color--dark-8)",
+                    "text": "var(--wp--preset--color--light-2)"
+                },
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--s)"
+                }
+            },
             "core/code": {
                 "border": {
                     "width": "0"

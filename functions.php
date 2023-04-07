@@ -44,7 +44,7 @@ add_action( 'wp_enqueue_scripts', "kide_scripts" );
 
 if ( ! function_exists( 'kide_block_styles' ) ) :
   function kide_block_styles() {
-    $styled_blocks = ['column','columns','group','latest-posts','media-text','navigation','site-logo','query','search'];
+    $styled_blocks = ['calendar','column','columns','group','latest-posts','media-text','navigation','site-logo','query','search'];
     foreach ( $styled_blocks as $block_name ) {
       $args = array(
         'handle' => "kide-$block_name",
@@ -72,6 +72,7 @@ add_action( 'after_setup_theme', 'kide_block_styles' );
     add_editor_style(
       array(
         '.assets/css/kide.css',
+        '.assets/css/blocks/calendar.css',
         '.assets/css/blocks/column.css',
         '.assets/css/blocks/columns.css',
         '.assets/css/blocks/image.css',
