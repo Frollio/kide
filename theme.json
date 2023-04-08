@@ -503,10 +503,10 @@
             "core/cover":{
                 "spacing": {
                     "padding": {
-                        "top": "var(--wp--preset--spacing--40)",
-                        "right": "var(--wp--preset--spacing--40)",
-                        "bottom": "var(--wp--preset--spacing--40)",
-                        "left": "var(--wp--preset--spacing--40)"
+                        "top": "0",
+                        "right": "0",
+                        "bottom": "0",
+                        "left": "0"
                     }
                 },
                 "dimensions": {

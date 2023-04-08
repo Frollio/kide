@@ -15,8 +15,8 @@
   <!-- wp:group {"layout":{"type":"constrained"}} -->
   <div class="wp-block-group">
   
-    <!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"className":"alignwide kide-site-intro-full-columns"} -->
-    <div class="wp-block-columns alignwide kide-site-intro-full-columns">
+    <!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|40"},"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"className":"alignwide kide-site-intro-full-columns"} -->
+    <div class="wp-block-columns alignwide kide-site-intro-full-columns" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
     
       <!-- wp:column {"className":"is-vertically-aligned-center kide-site-intro-wide-column-1"} -->
       <div class="wp-block-column is-vertically-aligned-center kide-site-intro-wide-column-1">
