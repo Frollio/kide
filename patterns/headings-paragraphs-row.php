@@ -7,8 +7,8 @@
    * */
 ?>
 
-<!-- wp:group {"className":"has-dark-5-background-color has-background"} -->
-<div class="wp-block-group has-dark-5-background-color has-background">
+<!-- wp:group {"tagName":"section","className":"has-dark-5-background-color has-background"} -->
+<section class="wp-block-group has-dark-5-background-color has-background">
   
   <!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
   <div class="wp-block-group alignwide">
@@ -94,5 +94,5 @@
   </div>
   <!-- /wp:group -->
 
-</div>
+</section>
 <!-- /wp:group -->

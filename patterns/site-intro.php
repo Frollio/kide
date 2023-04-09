@@ -7,8 +7,8 @@
  */
 ?>
 
-<!-- wp:cover {"overlayColor":"dark-7","align":"full"} -->
-<div class="wp-block-cover alignfull">
+<!-- wp:cover {"overlayColor":"dark-7","tagName":"section","align":"full"} -->
+<section class="wp-block-cover alignfull">
   <span aria-hidden="true" class="wp-block-cover__background has-dark-7-background-color has-background-dim-100 has-background-dim"></span>
 <div class="wp-block-cover__inner-container">
 
@@ -51,5 +51,5 @@
   <!-- /wp:group -->
 
 </div>
-</div>
+</section>
 <!-- /wp:cover -->
