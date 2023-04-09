@@ -1,16 +1,5 @@
+
 <?php
-
-/**
- * Supports
- */
-
-if ( ! function_exists( 'kide_setup' ) ) :
-  function kide_setup() {
-    add_theme_support( 'wp-block-styles' );
-  }
-endif;
-add_action( 'after_setup_theme', 'kide_setup' );
-
 
 /**
  * Global styles
@@ -44,6 +33,7 @@ add_action( 'wp_enqueue_scripts', "kide_scripts" );
 
 if ( ! function_exists( 'kide_block_styles' ) ) :
   function kide_block_styles() {
+    add_theme_support( 'wp-block-styles' );
     $styled_blocks = ['calendar','column','columns','group','latest-posts','media-text','navigation','site-logo','query','search','table'];
     foreach ( $styled_blocks as $block_name ) {
       $args = array(
