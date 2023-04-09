@@ -14,31 +14,3 @@
     flex-direction: row;
   }
 }
-
-
-/**
- * Full image site intro columns
- *
- * The image has no left and right spacing in narrow viewports.
- */
-
-.kide-site-intro-full-columns {
-  flex-direction: column-reverse;
-}
-
-@media only screen and (min-width: 1200px) {
-  .kide-site-intro-full-columns {
-    flex-direction: row;
-  }
-}
-
-
-/**
- * Footer columns
- *
- * Footer container
- */
-
-/*.kide-footer-columns {
-  gap: var(--wp--preset--spacing--40);
-}*/
