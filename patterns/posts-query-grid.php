@@ -2,7 +2,7 @@
 <?php
   /**
    * Title: A section with latest posts as a grid
-   * slug: kide/latest-posts-grid
+   * slug: kide/posts-query-grid
    * Categories: text, query
    * */
 ?>
