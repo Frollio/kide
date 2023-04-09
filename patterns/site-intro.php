@@ -2,7 +2,7 @@
 <?php
 /**
  * Title: Introduction of the site, wide-width image at narrow screens
- * Slug: kide/site-intro-wide
+ * Slug: kide/site-intro
  * Categories: text, image
  */
 ?>
