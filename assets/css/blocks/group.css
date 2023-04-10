@@ -1,6 +1,8 @@
 
 /**
  * 1 Header container
+ *
+ * The group block used in the header part.
  */
 
 .kide-header-container {
@@ -10,6 +12,8 @@
 
 /**
  * 2 Latest posts list
+ *
+ * The stack block used in the latest posts list pattern.
  */
 
 .kide-latest-list-stack {
@@ -19,6 +23,8 @@
 
 /**
  * 3 404
+ *
+ * The group block used in the 404 pattern.
  **/
 
 .kide-404-outer-container {

@@ -1,6 +1,8 @@
 
 /**
- * 1 Header – Narrow screen navigation menu
+ * 1.1 Header's narrow navigation
+ *
+ * The navigation block used in the header pattern. Maximum 999 pixels wide viewport.
  */
 
 /* Menu container */
@@ -71,14 +73,15 @@
 
 
 /**
- * 2 Header – Wide screen navigation menu
+ * 1.2 Header's narrow navigation
+ *
+ * The navigation block used in the header pattern. Minimum 1000 pixels wide viewport.
  */
 
 @media only screen and (min-width: 1000px) {
 
   /* Navigation menu */
   .kide-header-navigation {
-    /*font-size: var(--wp--preset--font-size--m) !important;*/
     line-height: 2.0rem;
   }
 

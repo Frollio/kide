@@ -1,7 +1,8 @@
 
-
 /**
- * Search toggle button
+ * 1 Search toggle button
+ *
+ * The image block used in the header part as a button.
  */
 
 #kide-search-toggle > img:hover {
@@ -20,7 +21,9 @@
 
 
 /**
- * Search bar
+ * 2 Search bar
+ *
+ * The group block used in the header part as a container of search block.
  */
 
 #kide-search-bar {
@@ -33,7 +36,9 @@
 
 
 /**
- * Header search block
+ * 3 Header search block
+ *
+ * The search block used in the header part.
  */
 
 .kide-header-search > div > input {
