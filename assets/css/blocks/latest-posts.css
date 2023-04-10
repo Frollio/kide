@@ -3,29 +3,29 @@
  * Latest posts list
  */
 
-.kide-latest-posts-list {
+.wp-block-latest-posts__list {
   width: 100%;
 }
 
-.kide-latest-posts-list li {
+.wp-block-latest-posts__list li {
   display: grid;
   margin-top: var(--wp--preset--spacing--20);
   border-bottom: solid 5px var(--wp--preset--color--dark-11);
 }
 
-.kide-latest-posts-list > li > time {
+.wp-block-latest-posts__list > li > time {
   font-size: var(--wp--preset--font-size--s);
 }
 
 @media only screen and (min-width: 800px) {
-  .kide-latest-posts-list li {
+  .wp-block-latest-posts__list li {
     grid-template-columns: 30% 70%;
     gap: var(--wp--preset--spacing--20);
   }
-  .kide-latest-posts-list > li > a {
+  .wp-block-latest-posts__list > li > a {
     grid-area: 1 / 2 / 1 / 2;
   }
-  .kide-latest-posts-list > li > time {
+  .wp-block-latest-posts__list > li > time {
     grid-area: 1 / 1 / 1 / 1;
   }
 }
