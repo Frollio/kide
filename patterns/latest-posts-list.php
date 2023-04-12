@@ -2,7 +2,7 @@
 <?php
   /**
    * Title: A section with latest posts as a list with headings and dates
-   * slug: kide/latest-posts-section-list
+   * slug: kide/latest-posts-list
    * Categories: text, query
    * */
 ?>

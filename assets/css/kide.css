@@ -13,6 +13,10 @@ a span:hover {
   text-decoration: underline;
 }
 
+[title]:after {
+  background-color: red !important;
+}
+
 
 /**
  * 2 Footer layout

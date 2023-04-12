@@ -6,9 +6,7 @@
  **/
 
 .kide-post-template > li {
-  display: flex;
-  flex-direction: column;
   padding: var(--wp--preset--spacing--20);
-  border: solid 5px var(--wp--preset--color--dark-11);
-  text-align: center;
+  border-bottom: solid 5px var(--wp--preset--color--dark-11);
+  border-left: solid 5px var(--wp--preset--color--dark-11);
 }

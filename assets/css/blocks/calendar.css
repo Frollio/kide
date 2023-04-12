@@ -1,0 +1,24 @@
+
+/**
+ * Calendar
+ */
+
+.wp-calendar-table caption,
+.wp-block-calendar nav {
+  padding: var(--wp--preset--spacing--10) !important;
+}
+
+.wp-calendar-table th,
+.wp-calendar-table td {
+  padding: var(--wp--preset--spacing--10) !important;
+  border: solid 5px var(--wp--preset--color--dark-10) !important;
+}
+
+.wp-calendar-table th {
+  color: var(--wp--preset--color--kide-violet);
+  background-color: var(--wp--preset--color--dark-7);
+}
+
+.wp-calendar-table td {
+  background-color: var(--wp--preset--color--dark-7);
+}

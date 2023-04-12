@@ -1,35 +1,59 @@
 
 /**
- * 1 Header – Narrow screen navigation
+ * 1 Header – Narrow screen navigation menu
  */
 
-.kide-header-navigation > div > div > div > div {
+/* Menu container */
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content
+{
   align-items: center !important;
+  padding-top: var(--wp--custom--kide-menu-button--padding) !important;
 }
 
+/* First-level list items */
 .kide-header-navigation > div > div > div > div > ul > li {
-  font-size: 2.0rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  font-size: var(--wp--preset--font-size--l);
+  gap: var(--wp--preset--spacing--20);
 }
 
-.kide-header-navigation > div > div > div > div > ul > li ul {
+/* Second-level list */
+.kide-header-navigation > div > div > div > div > ul > li > ul {
+  padding-left: 1rem !important;
   padding-top: 0 !important;
-  font-size: 1.5rem;
+  border-left: 0.5rem var(--wp--preset--color--dark-10) solid !important;
 }
 
-.kide-header-navigation > div > div > div > div > ul > li > ul li {
-  padding-top: 1.0rem;
+/* Second-level list items */
+.kide-header-navigation > div > div > div > div > ul > li > ul > li {
+  font-size: var(--wp--preset--font-size--m);
+  gap: var(--wp--preset--spacing--10);
 }
 
+/* Third-level list and below */
+.kide-header-navigation > div > div > div > div > ul > li > ul > li ul {
+  padding: 0 !important;
+}
+
+/* Third-level list items and below */
+.kide-header-navigation > div > div > div > div > ul > li > ul > li > ul li {
+  font-size: var(--wp--preset--font-size--s);
+}
+
+/* Open menu button graphics */
 .kide-header-navigation > button > svg {
   width: auto;
-  height: 70px;
+  height: var(--wp--custom--kide-header-item--height);
 }
 
+/* Close menu button */
+.kide-header-navigation > div > div > div > button {
+  padding: var(--wp--preset--spacing--20);
+}
+
+/* Close menu button graphics */
 .kide-header-navigation > div > div > div > button > svg {
   width: auto;
-  height: 70px;
+  height: var(--wp--custom--kide-header-item--height);
 }
 
 @media only screen and (max-width: 999px) {
@@ -47,25 +71,46 @@
 
 
 /**
- * 2 Header – Wide screen navigation
+ * 2 Header – Wide screen navigation menu
  */
 
 @media only screen and (min-width: 1000px) {
+
+  /* Navigation menu */
   .kide-header-navigation {
-    font-size: 1.2rem;
+    /*font-size: var(--wp--preset--font-size--m) !important;*/
     line-height: 2.0rem;
   }
+
+  /* Navigation menu links */
   .kide-header-navigation a {
     padding-right: 0;
   }
+  
+  /* First-level list */
   .kide-header-navigation > div > div > div > div > ul {
-    gap: 0;
+    gap: 1rem;
     justify-content: center;
   }
+
+  /* First-level list items and below */
   .kide-header-navigation > div > div > div > div > ul li {
-    font-size: 1.2rem;
+    font-size: var(--wp--preset--font-size--s);
+    gap: 0;
   }
+
+  /* Second-level list */
+  .kide-header-navigation > div > div > div > div > ul > li > ul {
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+    border-left: 0 !important;
+  }
+
+  /* Second-level list items and below */
   .kide-header-navigation > div > div > div > div > ul > li > ul li {
     padding-top: 0;
+    font-size: var(--wp--preset--font-size--s);
+    gap: 0;
   }
+
 }

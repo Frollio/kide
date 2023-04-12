@@ -1,0 +1,10 @@
+
+/**
+ * Site logo
+ **/
+
+.kide-header-item-height > a > img {
+  max-width: max-content; /* Overrides .wp-block-image's img max-width */
+  width: auto !important; /* Overrides img[Attributes's width */
+  height: var(--wp--custom--kide-header-item--height) !important; /* Overwrite .wp-block-site-logo.is-default-size img's height */
+}

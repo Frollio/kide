@@ -1,16 +1,5 @@
+
 <?php
-
-/**
- * Supports
- */
-
-if ( ! function_exists( 'kide_setup' ) ) :
-  function kide_setup() {
-    add_theme_support( 'wp-block-styles' );
-  }
-endif;
-add_action( 'after_setup_theme', 'kide_setup' );
-
 
 /**
  * Global styles
@@ -44,7 +33,8 @@ add_action( 'wp_enqueue_scripts', "kide_scripts" );
 
 if ( ! function_exists( 'kide_block_styles' ) ) :
   function kide_block_styles() {
-    $styled_blocks = ['column','columns','image','group','latest-posts','media-text','navigation','query','search'];
+    add_theme_support( 'wp-block-styles' );
+    $styled_blocks = ['calendar','columns','group','latest-posts','media-text','navigation','query','search','site-logo','table'];
     foreach ( $styled_blocks as $block_name ) {
       $args = array(
         'handle' => "kide-$block_name",
@@ -72,15 +62,16 @@ add_action( 'after_setup_theme', 'kide_block_styles' );
     add_editor_style(
       array(
         '.assets/css/kide.css',
-        '.assets/css/blocks/column.css',
+        '.assets/css/blocks/calendar.css',
         '.assets/css/blocks/columns.css',
-        '.assets/css/blocks/image.css',
         '.assets/css/blocks/group.css',
         '.assets/css/blocks/latest-posts.css',
         '.assets/css/blocks/media-text.css',
         '.assets/css/blocks/navigation.css',
         '.assets/css/blocks/query.css',
-        '.assets/css/blocks/search.css'
+        '.assets/css/blocks/search.css',
+        '.assets/css/blocks/site-logo.css',
+        '.assets/css/blocks/table.css'
       )
     );
   }
