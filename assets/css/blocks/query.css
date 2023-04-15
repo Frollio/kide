@@ -10,3 +10,15 @@
   border-bottom: solid 5px var(--wp--preset--color--dark-11);
   border-left: solid 5px var(--wp--preset--color--dark-11);
 }
+
+
+/**
+ * 2 Pagination
+ *
+ * Pagination block.
+ **/
+
+.wp-block-query-pagination-numbers .page-numbers {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}

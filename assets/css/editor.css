@@ -357,6 +357,18 @@ footer {
 
 
 /**
+ * 8.2 Pagination
+ *
+ * Pagination block.
+ **/
+
+ .wp-block-query-pagination-numbers .page-numbers {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+
+/**
  * 9 SEARCH.CSS
  */
 
