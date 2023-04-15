@@ -47,10 +47,6 @@ footer {
   flex-shrink: 0;
 }
 
-footer > div {
-  margin-bottom: 0 !important;
-}
-
 
 /**
  * 3 Alternative block gap control
