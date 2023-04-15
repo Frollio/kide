@@ -10,7 +10,7 @@
  * These styles fix common problems. They should be moved to the theme.json, if possible.
  */
 
- * {
+* {
   box-sizing: border-box;
 }
 
@@ -55,25 +55,25 @@ footer {
  * The calendar block.
  */
 
- .wp-calendar-table caption,
- .wp-block-calendar nav {
-   padding: var(--wp--preset--spacing--10) !important;
- }
+.wp-calendar-table caption,
+.wp-block-calendar nav {
+  padding: var(--wp--preset--spacing--10) !important;
+}
  
- .wp-calendar-table th,
- .wp-calendar-table td {
-   padding: var(--wp--preset--spacing--10) !important;
-   border: solid 5px var(--wp--preset--color--dark-10) !important;
- }
+.wp-calendar-table th,
+.wp-calendar-table td {
+  padding: var(--wp--preset--spacing--10) !important;
+  border: solid 5px var(--wp--preset--color--dark-10) !important;
+}
  
- .wp-calendar-table th {
-   color: var(--wp--preset--color--kide-violet);
-   background-color: var(--wp--preset--color--dark-7);
- }
+.wp-calendar-table th {
+  color: var(--wp--preset--color--kide-violet);
+  background-color: var(--wp--preset--color--dark-7);
+}
  
- .wp-calendar-table td {
-   background-color: var(--wp--preset--color--dark-7);
- }
+.wp-calendar-table td {
+  background-color: var(--wp--preset--color--dark-7);
+}
 
 
 /**
@@ -109,7 +109,7 @@ footer {
  * The group block used in the header part.
  */
 
- .kide-header-container {
+.kide-header-container {
   justify-content: space-evenly;
 }
 
@@ -147,7 +147,7 @@ footer {
  * The latest posts block in list mode.
  */
 
- .wp-block-latest-posts__list {
+.wp-block-latest-posts__list {
   width: 100%;
 }
 
@@ -186,7 +186,7 @@ footer {
  * The media and text block used in the two-column introduction pattern.
  */
 
- .kide-two-column-intro-media-text {
+.kide-two-column-intro-media-text {
   gap: var(--wp--preset--spacing--40)
 }
 
@@ -349,7 +349,7 @@ footer {
  * The post template block used in the posts query grid pattern and in the template query pattern.
  **/
 
- .kide-post-template > li {
+.kide-post-template > li {
   padding: var(--wp--preset--spacing--20);
   border-bottom: solid 5px var(--wp--preset--color--dark-11);
   border-left: solid 5px var(--wp--preset--color--dark-11);
@@ -441,18 +441,18 @@ footer {
  * The table block.
  */
 
- .wp-block-table th,
- .wp-block-table td {
-   border: solid 5px var(--wp--preset--color--dark-9);
-   text-align: center;
- }
+.wp-block-table th,
+.wp-block-table td {
+  border: solid 5px var(--wp--preset--color--dark-9);
+  text-align: center;
+}
  
- .wp-block-table th {
-   color: var(--wp--preset--color--kide-violet);
- }
+.wp-block-table th {
+  color: var(--wp--preset--color--kide-violet);
+}
  
- .wp-block-table figcaption {
-   color: var(--wp--preset--color--light-2);
-   font-size: var(--wp--preset--font-size--xs);
-   padding: var(--wp--preset--spacing--10);;
- }
+.wp-block-table figcaption {
+  color: var(--wp--preset--color--light-2);
+  font-size: var(--wp--preset--font-size--xs);
+  padding: var(--wp--preset--spacing--10);;
+}
