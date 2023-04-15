@@ -69,21 +69,7 @@ add_action( 'after_setup_theme', 'kide_block_styles' );
  if (! function_exists( 'kide_editor_styles' ) ) :
   function kide_editor_styles() {
     add_theme_support('editor-styles');
-    add_editor_style(
-      array(
-        'assets/css/kide.css',
-        'assets/css/blocks/calendar.css',
-        'assets/css/blocks/columns.css',
-        'assets/css/blocks/group.css',
-        'assets/css/blocks/latest-posts.css',
-        'assets/css/blocks/media-text.css',
-        'assets/css/blocks/navigation.css',
-        'assets/css/blocks/query.css',
-        'assets/css/blocks/search.css',
-        'assets/css/blocks/site-logo.css',
-        'assets/css/blocks/table.css'
-      )
-    );
+    add_editor_style( 'assets/css/editor.css' );
   }
 endif;
 add_action( 'after_setup_theme', 'kide_editor_styles' );
