@@ -1,0 +1,469 @@
+
+/**
+ * 1 KIDE.CSS
+ */
+
+
+/**
+ * 1.1 General fixes
+ *
+ * These styles fix common problems. They should be moved to the theme.json, if possible.
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+a span:hover {
+  text-decoration: underline;
+}
+
+[title]:after {
+  background-color: red !important;
+}
+
+footer {
+  margin-top: 0 !important /* Disabling blockGap */
+}
+
+
+/**
+ * 1.2 Alternative block gap control
+ *
+ * Classes for removing excessive child elements' margins.
+ */
+
+.kide-first-child-no-top-margin > :first-child {
+  margin-top: 0;
+  margin-block-start: 0;
+}
+
+.kide-last-child-no-bottom-margin > :last-child {
+  margin-bottom: 0;
+  margin-block-end: 0;
+}
+
+
+/**
+ * 2 CALENDAR.CSS
+ */
+
+ 
+/**
+ * 2.1 Calendar
+ *
+ * The calendar block.
+ */
+
+.wp-calendar-table caption,
+.wp-block-calendar nav {
+  padding: var(--wp--preset--spacing--10) !important;
+}
+ 
+.wp-calendar-table th,
+.wp-calendar-table td {
+  padding: var(--wp--preset--spacing--10) !important;
+  border: solid 5px var(--wp--preset--color--dark-10) !important;
+}
+ 
+.wp-calendar-table th {
+  color: var(--wp--preset--color--kide-violet);
+  background-color: var(--wp--preset--color--dark-7);
+}
+ 
+.wp-calendar-table td {
+  background-color: var(--wp--preset--color--dark-7);
+}
+
+
+/**
+ * 3 COLUMNS.CSS
+ */
+
+ 
+/**
+ * 3.1 Site introduction columns
+ *
+ * The columns block used in the site introduction pattern.
+ */
+
+.kide-site-intro-wide-columns {
+  flex-direction: column-reverse;
+}
+
+@media only screen and (min-width: 1200px) {
+  .kide-site-intro-wide-columns {
+    flex-direction: row;
+  }
+}
+
+
+/**
+ * 4 GROUP.CSS
+ */
+
+ 
+/**
+ * 4.1 Header container
+ *
+ * The group block used in the header part.
+ */
+
+.kide-header-container {
+  justify-content: space-evenly;
+}
+
+
+/**
+ * 4.2 Latest posts list
+ *
+ * The stack block used in the latest posts list pattern.
+ */
+
+.kide-latest-list-stack {
+  display: grid;
+}
+
+
+/**
+ * 4.3 404
+ *
+ * The group block used in the 404 pattern.
+ **/
+
+.kide-404-outer-container {
+  height: 100%;
+}
+
+
+/**
+ * 5 LATEST-POSTS.CSS
+ */
+
+ 
+/**
+ * 5.1 Latest posts list
+ *
+ * The latest posts block in list mode.
+ */
+
+.wp-block-latest-posts__list {
+  width: 100%;
+}
+
+.wp-block-latest-posts__list li {
+  display: grid;
+  margin-top: var(--wp--preset--spacing--20);
+  border-bottom: solid 5px var(--wp--preset--color--dark-11);
+}
+
+.wp-block-latest-posts__list > li > time {
+  font-size: var(--wp--preset--font-size--s);
+}
+
+@media only screen and (min-width: 800px) {
+  .wp-block-latest-posts__list li {
+    grid-template-columns: 30% 70%;
+    gap: var(--wp--preset--spacing--20);
+  }
+  .wp-block-latest-posts__list > li > a {
+    grid-area: 1 / 2 / 1 / 2;
+  }
+  .wp-block-latest-posts__list > li > time {
+    grid-area: 1 / 1 / 1 / 1;
+  }
+}
+
+
+/**
+ * 6 MEDIA-TEXT.CSS
+ */
+
+ 
+/**
+ * 6.1 Two-column intro
+ *
+ * The media and text block used in the two-column introduction pattern.
+ */
+
+.kide-two-column-intro-media-text {
+  gap: var(--wp--preset--spacing--40)
+}
+
+.kide-two-column-intro-media-text > div {
+  padding: 0 !important;
+}
+
+.kide-two-column-intro-media-text > div > :first-child {
+  margin-top: 0;
+}
+
+.kide-two-column-intro-media-text > div > :last-child {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1199px) {
+  .kide-two-column-intro-media-text {
+    grid-template-columns: 100%!important;
+  }
+  .kide-two-column-intro-media-text > div {
+    grid-column: 1 !important;
+    grid-row: 2 !important;
+  }
+}
+
+
+/**
+ * 7 NAVIGATION.CSS
+ */
+
+ 
+/**
+ * 7.1.1 Header's narrow navigation
+ *
+ * The navigation block used in the header pattern. Maximum 999 pixels wide viewport.
+ */
+
+/* Menu container */
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content
+{
+  align-items: center !important;
+  padding-top: var(--wp--custom--kide-menu-button--padding) !important;
+}
+
+/* First-level list items */
+.kide-header-navigation > div > div > div > div > ul > li {
+  font-size: var(--wp--preset--font-size--l);
+  gap: var(--wp--preset--spacing--20);
+}
+
+/* Second-level list */
+.kide-header-navigation > div > div > div > div > ul > li > ul {
+  padding-left: 1rem !important;
+  padding-top: 0 !important;
+  border-left: 0.5rem var(--wp--preset--color--dark-10) solid !important;
+}
+
+/* Second-level list items */
+.kide-header-navigation > div > div > div > div > ul > li > ul > li {
+  font-size: var(--wp--preset--font-size--m);
+  gap: var(--wp--preset--spacing--10);
+}
+
+/* Third-level list and below */
+.kide-header-navigation > div > div > div > div > ul > li > ul > li ul {
+  padding: 0 !important;
+}
+
+/* Third-level list items and below */
+.kide-header-navigation > div > div > div > div > ul > li > ul > li > ul li {
+  font-size: var(--wp--preset--font-size--s);
+}
+
+/* Open menu button graphics */
+.kide-header-navigation > button > svg {
+  width: auto;
+  height: var(--wp--custom--kide-header-item--height);
+}
+
+/* Close menu button */
+.kide-header-navigation > div > div > div > button {
+  padding: var(--wp--preset--spacing--20);
+}
+
+/* Close menu button graphics */
+.kide-header-navigation > div > div > div > button > svg {
+  width: auto;
+  height: var(--wp--custom--kide-header-item--height);
+}
+
+@media only screen and (max-width: 999px) {
+  /* Responsive navigation menu */
+  .wp-block-navigation__responsive-container-open, 
+  .wp-block-navigation__responsive-container-open:not(.always-shown) {
+    display: flex;
+  }
+  /* None-responsive navigation menu */
+  .wp-block-navigation__responsive-container, 
+  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+    display: none;
+  }
+}
+
+
+/**
+ * 7.1.2 Header's narrow navigation
+ *
+ * The navigation block used in the header pattern. Minimum 1000 pixels wide viewport.
+ */
+
+@media only screen and (min-width: 1000px) {
+
+  /* Navigation menu */
+  .kide-header-navigation {
+    line-height: 2.0rem;
+  }
+
+  /* Navigation menu links */
+  .kide-header-navigation a {
+    padding-right: 0;
+  }
+  
+  /* First-level list */
+  .kide-header-navigation > div > div > div > div > ul {
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  /* First-level list items and below */
+  .kide-header-navigation > div > div > div > div > ul li {
+    font-size: var(--wp--preset--font-size--s);
+    gap: 0;
+  }
+
+  /* Second-level list */
+  .kide-header-navigation > div > div > div > div > ul > li > ul {
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+    border-left: 0 !important;
+  }
+
+  /* Second-level list items and below */
+  .kide-header-navigation > div > div > div > div > ul > li > ul li {
+    padding-top: 0;
+    font-size: var(--wp--preset--font-size--s);
+    gap: 0;
+  }
+
+}
+
+
+/**
+ * 8 QUERY.CSS
+ */
+
+ 
+/**
+ * 8.1 Post template
+ *
+ * The post template block used in the posts query grid pattern and in the template query pattern.
+ **/
+
+.kide-post-template > li {
+  padding: var(--wp--preset--spacing--20);
+  border-bottom: solid 5px var(--wp--preset--color--dark-11);
+  border-left: solid 5px var(--wp--preset--color--dark-11);
+}
+
+
+/**
+ * 8.2 Pagination
+ *
+ * Pagination block.
+ **/
+
+.wp-block-query-pagination-numbers .page-numbers {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+
+/**
+ * 9 SEARCH.CSS
+ */
+
+
+/**
+ * 9.1 Search toggle button
+ *
+ * The image block used in the header part as a button.
+ */
+
+#kide-search-toggle > div > img:hover {
+  content: url(../../images/magnifying-glass-purple.svg);
+}
+
+#kide-search-toggle > div > img:active {
+  content: url(../../images/magnifying-glass-white.svg);
+}
+
+.kide-search-toggle-height > div > img {
+  width: auto !important; /* Overrides img[Attributes's width */
+  height: var(--wp--custom--kide-header-item--height);
+}
+
+
+/**
+ * 9.2 Search bar
+ *
+ * The group block used in the header part as a container of search block.
+ */
+
+#kide-search-bar {
+  display: none;
+}
+
+.kide-is-block {
+  display: block !important;
+}
+
+
+/**
+ * 9.3 Header search block
+ *
+ * The search block used in the header part.
+ */
+
+.kide-header-search > div > input {
+  background-color: var(--wp--preset--color--dark-10);
+  color: var(--wp--preset--color--light-2);
+  border: none;
+  padding: 15px;
+  outline: 0;
+}
+
+
+/**
+ * 10 SITE-LOGO.CSS
+ */
+
+ 
+/**
+ * 10.1 Site logo
+ *
+ * The site logo block used in the header part.
+ **/
+
+.kide-header-item-height > a > img {
+  max-width: max-content; /* Overrides .wp-block-image's img max-width */
+  width: auto !important; /* Overrides img[Attributes's width */
+  height: var(--wp--custom--kide-header-item--height) !important; /* Overwrite .wp-block-site-logo.is-default-size img's height */
+}
+
+
+/**
+ * 11 TABLE.CSS
+ */
+
+
+/**
+ * 11.1 Table
+ *
+ * The table block.
+ */
+
+.wp-block-table th,
+.wp-block-table td {
+  border: solid 5px var(--wp--preset--color--dark-9);
+  text-align: center;
+}
+ 
+.wp-block-table th {
+  color: var(--wp--preset--color--kide-violet);
+}
+ 
+.wp-block-table figcaption {
+  color: var(--wp--preset--color--light-2);
+  font-size: var(--wp--preset--font-size--xs);
+  padding: var(--wp--preset--spacing--10);;
+}
