@@ -547,12 +547,12 @@
             },
             "core/post-date": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--s)"
+                    "fontSize": "var(--wp--preset--font-size--xs)"
                 }
             },
             "core/post-terms": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--s)"
+                    "fontSize": "var(--wp--preset--font-size--xs)"
                 }
             },
             "core/post-title": {
