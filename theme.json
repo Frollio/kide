@@ -536,7 +536,7 @@
             },
             "core/paragraph": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--s)",
+                    "fontSize": "var(--wp--preset--font-size--xs)",
                     "lineHeight": "1.75"
                 }
             },
