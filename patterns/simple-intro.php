@@ -23,7 +23,7 @@
       <!-- /wp:heading -->
 
       <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"0"}}}} -->
-      <p class="has-text-align-center" style="margin-bottom:0">Here you can tell what this page is about. By default the text is 1200 px wide and it can be expand to 2000 px or even to full width. Wow, full width, oh yeah.</p>
+      <p class="has-text-align-center" style="margin-bottom:0">Here you can tell what this page is about. By default the text is 1200 px wide and it can be expanded to 2000 px or even to full width. Wow, full width, oh yeah.</p>
       <!-- /wp:paragraph -->
 
     </div>
