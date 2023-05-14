@@ -580,6 +580,11 @@
                     }
                 }
             },
+            "core/search": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--xs)"
+                }
+            },
             "core/table": {
                 "color": {
                     "background": "var(--wp--preset--color--dark-7)"
