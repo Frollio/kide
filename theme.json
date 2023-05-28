@@ -429,7 +429,7 @@
             "fontFamily": "var(--wp--preset--font-family--poppins)",
             "fontSize": "16px",
             "fontStyle": "normal",
-            "fontWeight": "400"
+            "fontWeight": "300"
         },
         "blocks": {
             "core/calendar": {
@@ -484,7 +484,7 @@
             },
             "core/paragraph": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--xs)",
+                    "fontSize": "var(--wp--preset--font-size--s)",
                     "lineHeight": "1.75"
                 }
             },
@@ -495,12 +495,12 @@
             },
             "core/post-date": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--xs)"
+                    "fontSize": "var(--wp--preset--font-size--s)"
                 }
             },
             "core/post-terms": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--xs)"
+                    "fontSize": "var(--wp--preset--font-size--s)"
                 }
             },
             "core/post-title": {
