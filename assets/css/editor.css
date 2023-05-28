@@ -137,6 +137,32 @@ footer {
 
 
 /**
+ * 4.4 Adaptable three-column group
+ *
+ * A group block with one, two or three columns depending on the viewport width.
+ * The columns are created with child group blocks. The number of child groups can 
+ * vary from one to unlimited.
+ **/
+
+ .kide-three-column-grid {
+  display: grid !important;
+  grid-template-columns: auto;
+}
+
+@media screen and (min-width: 700px) {
+  .kide-three-column-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .kide-three-column-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+
+/**
  * 5 LATEST-POSTS.CSS
  */
 
