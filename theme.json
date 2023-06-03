@@ -482,6 +482,11 @@
                     "lineHeight": "1.75"
                 }
             },
+            "core/navigation": {
+                "typography": {
+                    "fontWeight": "400"
+                }
+            },
             "core/paragraph": {
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--s)",
