@@ -5,12 +5,12 @@
  * The columns block used in the site introduction pattern.
  */
 
-.kide-site-intro-wide-columns {
+.kide-site-intro-columns {
   flex-direction: column-reverse;
 }
 
-@media only screen and (min-width: 1200px) {
-  .kide-site-intro-wide-columns {
+@media only screen and (min-width: 1000px) {
+  .kide-site-intro-columns {
     flex-direction: row;
   }
 }

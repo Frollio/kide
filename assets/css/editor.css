@@ -87,12 +87,12 @@ footer {
  * The columns block used in the site introduction pattern.
  */
 
-.kide-site-intro-wide-columns {
+.kide-site-intro-columns {
   flex-direction: column-reverse;
 }
 
-@media only screen and (min-width: 1200px) {
-  .kide-site-intro-wide-columns {
+@media only screen and (min-width: 1000px) {
+  .kide-site-intro-columns {
     flex-direction: row;
   }
 }
@@ -133,6 +133,32 @@ footer {
 
 .kide-404-outer-container {
   height: 100%;
+}
+
+
+/**
+ * 4.4 Adaptable three-column group
+ *
+ * A group block with one, two or three columns depending on the viewport width.
+ * The columns are created with child group blocks. The number of child groups can 
+ * vary from one to unlimited.
+ **/
+
+ .kide-three-column-grid {
+  display: grid !important;
+  grid-template-columns: auto;
+}
+
+@media screen and (min-width: 700px) {
+  .kide-three-column-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .kide-three-column-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 
@@ -351,8 +377,7 @@ footer {
 
 .kide-post-template > li {
   padding: var(--wp--preset--spacing--20);
-  border-bottom: solid 5px var(--wp--preset--color--dark-11);
-  border-left: solid 5px var(--wp--preset--color--dark-11);
+  border: solid 5px var(--wp--preset--color--dark-11);
 }
 
 
@@ -414,12 +439,17 @@ footer {
  * The search block used in the header part.
  */
 
-.kide-header-search > div > input {
-  background-color: var(--wp--preset--color--dark-10);
+ .wp-block-search__input {
+  background-color: transparent;
   color: var(--wp--preset--color--light-2);
   border: none;
   padding: 15px;
   outline: 0;
+}
+
+.wp-block-search button {
+  background-color: transparent;
+  border-radius: 25px;
 }
 
 
