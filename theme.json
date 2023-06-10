@@ -574,22 +574,26 @@
             },
             "h3": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--2-xl)"
+                    "fontSize": "var(--wp--preset--font-size--2-xl)",
+                    "fontWeight": "600"
                 }
             },
             "h4": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--xl)"
+                    "fontSize": "var(--wp--preset--font-size--xl)",
+                    "fontWeight": "600"
                 }
             },
             "h5": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--l)"
+                    "fontSize": "var(--wp--preset--font-size--l)",
+                    "fontWeight": "500"
                 }
             },
             "h6": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--m)"
+                    "fontSize": "var(--wp--preset--font-size--m)",
+                    "fontWeight": "400"
                 }
             },
             "link": {
