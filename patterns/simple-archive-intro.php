@@ -23,7 +23,7 @@
       <!-- wp:term-description {"textAlign":"center","fontSize":"s"} /-->
       
       <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"0"}}}} -->
-      <p class="has-text-align-center" style="margin-bottom:0">You can use this template to create specific templates for single tags and categories.
+      <p class="has-text-align-center" style="margin-bottom:0">You can use Archive template to create specific templates for single tags and categories.
       </p>
       <!-- /wp:paragraph -->
       
