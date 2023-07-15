@@ -569,6 +569,7 @@
             "h2": {
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--3-xl)",
+                    "fontWeight": "600",
                     "lineHeight": "1.4"
                 }
             },
