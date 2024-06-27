@@ -1,5 +1,5 @@
 {
-    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "$schema": "https://schemas.wp.org/wp/6.5/theme.json",
     "version": 2,
     "settings": {
         "useRootPaddingAwareAlignments": true,
@@ -419,8 +419,8 @@
     },
     "styles": {
         "color": {
-            "background": "var(--wp--preset--color--dark-8)",
-            "text": "var(--wp--preset--color--light-2)"
+            "background": "var(--wp--preset--color--dark-4)",
+            "text": "var(--wp--preset--color--light-1)"
         },
         "spacing": {
             "blockGap": "var(--wp--preset--spacing--20)"
@@ -569,6 +569,7 @@
             "h2": {
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--3-xl)",
+                    "fontWeight": "600",
                     "lineHeight": "1.4"
                 }
             },
