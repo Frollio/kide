@@ -419,7 +419,7 @@
     },
     "styles": {
         "color": {
-            "background": "var(--wp--preset--color--dark-8)",
+            "background": "var(--wp--preset--color--dark-4)",
             "text": "var(--wp--preset--color--light-1)"
         },
         "spacing": {
