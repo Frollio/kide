@@ -474,6 +474,11 @@
             "core/heading": {
                 "color": {
                     "text": "var(--wp--preset--color--kide-violet)"
+                },
+                "spacing": {
+                    "margin": {
+                        "top": "var(--wp--preset--spacing--40)"
+                    }
                 }
             },
             "core/list": {
