@@ -541,6 +541,9 @@
             "core/search": {
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--xs)"
+                },
+                "color": {
+                    "background": "var(--wp--preset--color--dark-8)"
                 }
             },
             "core/table": {

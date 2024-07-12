@@ -1,54 +1,27 @@
 
-/**
- * 1 Search toggle button
- *
- * The image block used in the header part as a button.
- */
-
-#kide-search-toggle > img:hover {
-  content: url(../../images/magnifying-glass-purple.svg);
-}
-
-#kide-search-toggle > img:active {
-  content: url(../../images/magnifying-glass-white.svg);
-}
-
-.kide-search-toggle-height > img {
-  width: auto !important; /* Overrides img[Attributes's width */
-  height: var(--wp--custom--kide-header-item--height);
-}
-
 
 /**
- * 2 Search bar
+ * 1 Header search block
  *
- * The group block used in the header part as a container of search block.
+ * The search block.
  */
 
-#kide-search-bar {
-  display: none;
+ /*The search block used in the header part.*/
+.kide-header-search {
+  max-width: 300px;
 }
 
-.kide-is-block {
-  display: block !important;
-}
-
-
-/**
- * 3 Header search block
- *
- * The search block used in the header part.
- */
-
+/*All input fields of all search blocks*/
 .wp-block-search__input {
-  background-color: transparent;
-  color: var(--wp--preset--color--light-2);
-  border: none;
-  padding: 15px;
-  outline: 0;
+  width: 100%; /*Makes input field's width fluid.*/
+  background-color: transparent; /*Prevents covering the block's background colour.*/
+  color: var(--wp--preset--color--light-2); /*Doesn't work in theme.json at 6.5.*/
+  border: none; /*Prevents the border around the input field.*/
+  padding: 15px; /*While at 6.5 this cannot be done to input field at theme.json.*/
+  outline: 0; /*Prevents outline when the user clicks the input field.*/
 }
 
+/*All buttons of all search blocks*/
 .wp-block-search button {
-  background-color: transparent;
-  border-radius: 25px;
+  background-color: transparent; /*Prevents covering the block's background colour.*/
 }
