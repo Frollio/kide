@@ -35,6 +35,7 @@ if ( ! function_exists( 'kide_block_styles' ) ) :
   function kide_block_styles() {
     add_theme_support( 'wp-block-styles' );
     $styled_blocks = [
+      'button',
       'calendar',
       'columns',
       'group',
