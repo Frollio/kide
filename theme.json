@@ -160,6 +160,11 @@
                     "slug": "kide-violet"
                 },
                 {
+                    "name": "Kide Dark Violet",
+                    "color": "#593069",
+                    "slug": "kide-dark-violet"
+                },
+                {
                     "name": "Kide Purple",
                     "color": "#d188d1",
                     "slug": "kide-purple"
