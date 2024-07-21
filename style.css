@@ -5,10 +5,10 @@ Author: Olli Rok
 Author URI: https://ollirok.fi
 Description: Kide is a dark theme made for full site editing. It includes header and footer parts and many patterns. The colour palette includes multiple shades of grey with slightly saturated violet and purple.
 Tags: blog, news, grid-layout, one-column, two-columns, block-patterns, block-styles, editor-style, full-site-editing, full-width-template, template-editing, wide-blocks
-Version: 1.1
-Requires at least: 6.2
-Tested up to: 6.2
-Requires PHP: 7.4
+Version: 1.2
+Requires at least: 6.5
+Tested up to: 6.5
+Requires PHP: 8.2
 License: Unlicence
 License URI: https://github.com/Frollio/kide/blob/main/LICENSE
 Text Domain: kide

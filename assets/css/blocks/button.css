@@ -1,0 +1,12 @@
+
+
+/**
+ * 1 Button
+ *
+ * The button block.
+ */
+
+/*This didn't work in theme.json at 6.5.*/
+.wp-element-button:hover {
+  border-color: var(--wp--preset--color--light-2) !important;
+}

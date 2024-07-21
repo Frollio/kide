@@ -18,11 +18,11 @@
     <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","right":"var:preset|spacing|10","bottom":"var:preset|spacing|20","left":"var:preset|spacing|10"}}},"backgroundColor":"dark-6","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
     <div class="wp-block-group has-dark-6-background-color has-background" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--10)">
 
-      <!-- wp:heading {"textAlign":"center","level":4} -->
-      <h4 class="wp-block-heading has-text-align-center">
+      <!-- wp:paragraph {"align":"center","fontSize":"s"} -->
+      <p class="wp-block-paragraph has-text-align-center has-m-font-size">
         <!-- wp:post-terms {"term":"category"} /-->
-      </h4>
-      <!-- /wp:heading -->
+      </p>
+      <!-- /wp:paragraph -->
 
     </div>
     <!-- /wp:group -->

@@ -160,6 +160,11 @@
                     "slug": "kide-violet"
                 },
                 {
+                    "name": "Kide Dark Violet",
+                    "color": "#593069",
+                    "slug": "kide-dark-violet"
+                },
+                {
                     "name": "Kide Purple",
                     "color": "#d188d1",
                     "slug": "kide-purple"
@@ -432,6 +437,15 @@
             "fontWeight": "300"
         },
         "blocks": {
+            "core/button": {
+                "color": {
+                    "background": "var(--wp--preset--color--kide-dark-violet)"
+                },
+                "border": {
+                    "color": "var(--wp--preset--color--kide-violet)",
+                    "width": "2px"
+                }
+            },
             "core/calendar": {
                 "color": {
                     "text": "var(--wp--preset--color--light-2)"
@@ -474,6 +488,11 @@
             "core/heading": {
                 "color": {
                     "text": "var(--wp--preset--color--kide-violet)"
+                },
+                "spacing": {
+                    "margin": {
+                        "top": "var(--wp--preset--spacing--40)"
+                    }
                 }
             },
             "core/list": {
@@ -536,6 +555,9 @@
             "core/search": {
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--xs)"
+                },
+                "color": {
+                    "background": "var(--wp--preset--color--dark-8)"
                 }
             },
             "core/table": {
@@ -546,18 +568,8 @@
         },
         "elements": {
             "button": {
-                "color": {
-                    "background": "var(--wp--preset--color--dark-12)"
-                },
-                ":hover": {
-                    "color": {
-                        "background": "var(--wp--preset--color--kide-purple)"
-                    }
-                },
-                ":active": {
-                    "color": {
-                        "background": "var(--wp--preset--color--dark-10)"
-                    }
+                "border": {
+                    "style": "solid"
                 }
             },
             "h1": {
