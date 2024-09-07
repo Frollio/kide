@@ -1,6 +1,6 @@
 {
-    "$schema": "https://schemas.wp.org/wp/6.5/theme.json",
-    "version": 2,
+    "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+    "version": 3,
     "settings": {
         "useRootPaddingAwareAlignments": true,
         "layout": {
@@ -14,6 +14,7 @@
             "width": true
         },
         "spacing": {
+            "defaultSpacingSizes": false,
             "blockGap": true,
             "margin": true,
             "padding": true,
@@ -172,6 +173,7 @@
             ]
         },
         "typography": {
+            "defaultFontSizes": false,
             "fluid": true,
             "lineHeight": true,
             "fontFamilies": [
