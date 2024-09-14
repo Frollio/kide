@@ -15,8 +15,8 @@
   <!-- wp:group {"layout":{"type":"constrained"}} -->
   <div class="wp-block-group">
 
-    <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|20","bottom":"var:preset|spacing|40","left":"var:preset|spacing|20"}}},"layout":{"type":"constrained"}} -->
-    <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--20)">
+    <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|s80","right":"var:preset|spacing|s40","bottom":"var:preset|spacing|s80","left":"var:preset|spacing|s40"}}},"layout":{"type":"constrained"}} -->
+    <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--s-80);padding-right:var(--wp--preset--spacing--s-40);padding-bottom:var(--wp--preset--spacing--s-80);padding-left:var(--wp--preset--spacing--s-40)">
   
       <!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"top":"0"}}},"textColor":"kide-violet"} -->
       <h1 class="wp-block-heading has-text-align-center has-kide-violet-color has-text-color" id="welcome-to-this-page" style="margin-top:0">Welcome to this page</h1>

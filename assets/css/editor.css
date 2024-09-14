@@ -396,7 +396,7 @@ footer {
  **/
 
 .kide-post-template > li {
-  padding: var(--wp--preset--spacing--20);
+  padding: var(--wp--preset--spacing--30);
   border: solid 5px var(--wp--preset--color--dark-11);
 }
 
