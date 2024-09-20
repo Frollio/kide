@@ -1,8 +1,8 @@
 
 <?php
   /**
-   * Title: Empty section
-   * slug: kide/empty-section
+   * Title: Section
+   * slug: kide/section
    * Categories: banner
    * */
 ?>
