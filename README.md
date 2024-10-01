@@ -4,7 +4,7 @@
 
 Kide is a dark theme made for full site editing. It includes header, footer and many ready-made patterns. The colour palette includes multiple shades of grey with slightly saturated violet and purple.
 
-# Icons
+## Icons
 
 Kide uses these Font Awesome 6.3.0 icons:
 * xmark
