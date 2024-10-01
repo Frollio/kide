@@ -11,7 +11,7 @@
 <section class="wp-block-group alignfull has-dark-8-background-color has-background">
   
   <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","right":"var:preset|spacing|s40","bottom":"var:preset|spacing|80","left":"var:preset|spacing|s40"}}},"className":"alignwide"} -->
-  <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--s-40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--s40)">
+  <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--s-40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--s-40)">
 
     <!-- wp:query {"queryId":0,"query":{"perPage":12,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"displayLayout":{"type":"flex","columns":2},"align":"wide","layout":{"type":"default"}} -->
     <div class="wp-block-query alignwide">
