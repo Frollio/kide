@@ -30,3 +30,18 @@
 .kide-404-outer-container {
   height: 100%;
 }
+
+
+/**
+ * 4 Section
+ *
+ * Sections under main element
+ **/
+
+main section:nth-child(2n-1) {
+  background-color: var(--wp--preset--color--dark-8);
+}
+
+main section:nth-child(2n) {
+  background-color: var(--wp--preset--color--dark-7);
+}
