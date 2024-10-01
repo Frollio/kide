@@ -562,16 +562,21 @@
             "core/post-author": {
                 "color": {
                     "text": "var(--wp--preset--color--kide-violet)"
+                },
+                "typography": {
+                    "fontWeight": "400"
                 }
             },
             "core/post-date": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--s)"
+                    "fontSize": "var(--wp--preset--font-size--s)",
+                    "fontWeight": "400"
                 }
             },
             "core/post-terms": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--s)"
+                    "fontSize": "var(--wp--preset--font-size--s)",
+                    "fontWeight": "400"
                 }
             },
             "core/post-title": {
