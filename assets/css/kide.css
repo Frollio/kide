@@ -21,6 +21,20 @@ footer {
   margin-top: 0 !important /* Disabling blockGap */
 }
 
+/*Change search field's cancel button in multiple browsers, including Chrome and Safari*/
+::-webkit-search-cancel-button {
+  appearance: none;
+  background: url(../images/xmark.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15px;
+  height: 15px;
+  background-color: var(--wp--preset--color--light-1);
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
 
 /**
  * 2 Footer position

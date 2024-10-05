@@ -33,46 +33,15 @@
 
 
 /**
- * 4 Adaptable three-column group
+ * 4 Section
  *
- * A group block with one, two or three columns depending on the viewport width.
- * The columns are created with child group blocks. The number of child groups can 
- * vary from one to unlimited.
+ * Sections under main element
  **/
 
-.kide-three-column-grid {
-  display: grid !important;
-  grid-template-columns: auto;
+main section:nth-child(2n-1) {
+  background-color: var(--wp--preset--color--dark-8);
 }
 
-@media screen and (min-width: 700px) {
-  .kide-three-column-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  .kide-three-column-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-}
-
-
-/**
- * 5 Adaptable two-column group
- *
- * A group block with one or two columns depending on the viewport width.
- * The columns are created with child group blocks. The number of child groups can 
- * vary from one to unlimited.
- **/
-
-.kide-two-column-grid {
-  display: grid !important;
-  grid-template-columns: auto;
-}
-
-@media screen and (min-width: 700px) {
-  .kide-two-column-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+main section:nth-child(2n) {
+  background-color: var(--wp--preset--color--dark-7);
 }
