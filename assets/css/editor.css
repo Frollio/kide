@@ -137,21 +137,6 @@ footer {
 
 
 /**
- * 4.4 Section
- *
- * Sections under main element.
- **/
-
-.is-root-container section:nth-child(2n-1) {
-  background-color: var(--wp--preset--color--dark-8) !important;
-}
-
-.is-root-container section:nth-child(2n) {
-  background-color: var(--wp--preset--color--dark-7) !important;
-}
-
-
-/**
  * 5 LATEST-POSTS.CSS
  */
 
